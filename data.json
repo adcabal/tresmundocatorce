@@ -98,7 +98,7 @@
         "tipo": "recepcion",
         "titulo": "ZIBÁ EVENTOS Salón Terraza",
         "lugar": " Av. Sendero Divisorio 1400, casi esquina con Av. Universidad",
-        "hora": "20:00",
+        "hora": "19:30",
         "ubicacion": "25.7675013,-100.2911752",
         "imagenFondo": "img/recepcion.jpeg"
       }
@@ -106,7 +106,7 @@
 
     "itinerario": [
       {
-        "hora": "8:00 PM ",
+        "hora": "7:30 PM ",
         "titulo": "Recepcion",
         "icono": "🏛️"
       },
