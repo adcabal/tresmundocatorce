@@ -1,0 +1,64 @@
+:root{
+  --accent:#e01a76;
+  --gold1:#e0c060;
+  --bg-grad-1: linear-gradient(180deg,#051a1c 0%, #072f33 60%);
+  --glass: rgba(255,255,255,0.06);
+}
+/* Base typography improvements */
+html,body{height:100%;}
+body{
+  font-family: "Montserrat", system-ui, -apple-system, "Segoe UI", Roboto, "Helvetica Neue", Arial;
+  line-height:1.4; color: #1f2933; -webkit-font-smoothing:antialiased;
+}
+h1,h2,h3{font-family: "Playfair Display", Georgia, serif; letter-spacing: -0.01em;}
+.hero-content .nombre{ 
+  display:inline-block; padding:6px 12px; border-radius:8px;
+  background: linear-gradient(90deg, rgba(255,255,255,0.06), rgba(255,255,255,0.02));
+  transform-origin:center; animation: floatName 6s ease-in-out infinite;
+  background-clip: padding-box;
+}
+@keyframes floatName{ 0%{transform:translateY(0)} 50%{transform:translateY(-8px) scale(1.02)} 100%{transform:translateY(0)} }
+
+/* Hero background subtle slow zoom */
+.bg-portada{ animation: slowZoom 22s linear infinite; }
+@keyframes slowZoom{ 0%{transform:scale(1.02)} 50%{transform:scale(1.06)} 100%{transform:scale(1.02)} }
+
+/* Button emphasis and micro-interactions */
+.ver-invitacion-btn{ transition: transform 220ms cubic-bezier(.2,.9,.2,1), box-shadow 220ms; }
+.ver-invitacion-btn:hover{ transform: translateY(-6px) scale(1.02); box-shadow: 0 10px 30px rgba(224,26,118,0.16); }
+.btn{ will-change: transform, box-shadow; }
+
+/* Envelope 3D flap and letter easing */
+.envelope{ perspective:1200px; }
+.envelope::before{ transform-origin:center top; backface-visibility:hidden; transition: transform 0.9s cubic-bezier(.2,.9,.2,1); }
+.envelope-wrapper.flap > .envelope::before{ transform: rotateX(-170deg) translateZ(4px); box-shadow: 0 16px 40px rgba(0,0,0,0.45); }
+.envelope-wrapper.flap > .envelope > .letter{ transform: translateY(-120px) scale(1.05); transition: transform 0.9s cubic-bezier(.18,.9,.32,1); }
+
+/* Heart pop */
+.heart{ transition: transform 0.5s cubic-bezier(.2,.9,.2,1), box-shadow 0.3s; }
+.envelope-wrapper.flap > .heart{ transform: translate(-50%, -20%) rotate(0deg) scale(1.6); box-shadow: 0 12px 26px rgba(224,26,118,0.22); }
+
+/* Countdown number pop on change */
+.cd-box .num{ transition: transform 300ms ease, color 300ms; }
+.cd-box .num.animate{ transform: translateY(-6px) scale(1.08); color: var(--accent); }
+
+/* Gallery hover polish */
+.galeria-grid img{ transition: transform 420ms cubic-bezier(.2,.9,.2,1), filter 420ms; }
+.galeria-grid a:hover img{ transform: scale(1.07) rotate(-0.6deg); filter: saturate(1.06) contrast(1.02); }
+
+/* Soft glass panels */
+.event-card, .cd-box, .photo-frame{ transition: transform 260ms ease, box-shadow 260ms ease; }
+.event-card:hover, .photo-frame:hover{ transform: translateY(-6px); box-shadow: 0 12px 30px rgba(2,6,23,0.28); }
+
+/* Animated underline for anchor-like buttons */
+.btn-oro::after{ content:""; display:block; height:3px; background:linear-gradient(90deg,var(--gold1), #b58516); border-radius:3px; margin-top:8px; opacity:0; transform:scaleX(0); transform-origin:left; transition:all 320ms ease; }
+.btn-oro:hover::after{ opacity:1; transform:scaleX(1); }
+
+/* Prefer reduced motion */
+@media (prefers-reduced-motion: reduce){ *{ animation: none !important; transition: none !important; } }
+
+/* Responsive tweaks */
+@media (max-width:560px){ .hero-content .nombre{ font-size: clamp(2rem, 10vw, 3.6rem); padding:4px 8px; } }
+
+/* Small utilities */
+.muted { opacity: 0.78; }
