@@ -1,18 +1,17 @@
 <!doctype html>
 <html lang="es" data-beasties-container>
-  <head>
-    <meta charset="utf-8">
-<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no, viewport-fit=cover">
-    <title>XV-Bichi</title>
-    <base href="/">
-    <link rel="icon" href="/sobreLoadinig.png">
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400;600;700&amp;family=Montserrat:wght@300;400;500;600;700&amp;family=Pacifico&amp;family=Playfair+Display:ital,wght@0,400;0,600;0,700;1,400&amp;family=Cinzel+Decorative:wght@400;700&amp;display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css">
-    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
-    <link href="https://fonts.googleapis.com/css2?family=Great+Vibes&amp;display=swap" rel="stylesheet"> 
-    <style>
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no, viewport-fit=cover">
+  <title>XV-Bichi</title>
+  <base href="/">
+  <link rel="icon" href="/sobreLoadinig.png">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css">
+  <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+  <style>
     :root {
       --primary: gold;
       --bg-color: 110 1 36;
@@ -22,21 +21,34 @@
       --envelope-cover: #e6cfa7;
       --shadow-color: rgba(0, 0, 0, 0.2);
       --txt-color: #444;
-      --font-script: "Dancing Script",'Great Vibes',   cursive, Georgia, serif;
+      --font-script: "Dancing Script", 'Great Vibes', cursive, Georgia, serif;
       --font-body: "Montserrat", system-ui, sans-serif;
     }
-    * { box-sizing: border-box; margin: 0; padding: 0; }
-  
-    html { scroll-behavior: smooth;  touch-action: pan-y; }
+
+    * {
+      box-sizing: border-box;
+      margin: 0;
+      padding: 0;
+    }
+
+    html {
+      scroll-behavior: smooth;
+      touch-action: pan-y;
+    }
+
     body {
       font-family: var(--font-body);
       background: #000;
       color: #222;
       overflow-x: hidden;
       -webkit-font-smoothing: antialiased;
-        touch-action: pan-y;
+      touch-action: pan-y;
     }
-    img { max-width: 100%; display: block; }
+
+    img {
+      max-width: 100%;
+      display: block;
+    }
 
     .snowflake {
       animation: starfall 15s linear infinite;
@@ -46,45 +58,201 @@
       z-index: 50;
       user-select: none;
     }
+
     @keyframes starfall {
-      0% { transform: translateY(0); }
-      to { transform: translateY(200vh); }
+      0% {
+        transform: translateY(0);
+      }
+
+      to {
+        transform: translateY(200vh);
+      }
     }
 
     /* map both #main and Angular's #main-root */
-    #main, #main-root { display: none;  transition: opacity 1.1s ease; }
-    #main, #main-root.show { display: block; opacity: 1; }
+    #main,
+    #main-root {
+      display: none;
+      transition: opacity 1.1s ease;
+    }
 
-    .bg-portada { position: absolute; inset: 0; background: url('/img/portada.jpg') center center / cover no-repeat; filter: brightness(0.42); transform: scale(1.04); }
-    .bg-portada::after { content: ""; position: absolute; inset: 0; background: radial-gradient(ellipse at center, transparent 30%, rgba(0,0,0,0.45) 100%); }
+    #main,
+    #main-root.show {
+      display: block;
+      opacity: 1;
+    }
 
-    .ver-invitacion-btn{ position:absolute; top:50%; left:50%; transform:translate(-50%,-50%); z-index:5; background-color:#d15d5d; color:#fff; border:none; padding:8px 16px; border-radius:6px; font-family:var(--font-body); font-size:0.85rem; font-weight:500; cursor:pointer; white-space:nowrap; box-shadow:0 2px 8px rgba(0,0,0,0.25); }
-    .ver-invitacion-btn:hover{ background-color:#c44a4a; }
+    .bg-portada {
+      position: absolute;
+      inset: 0;
+      background: url('/img/portada.jpg') center center / cover no-repeat;
+      filter: brightness(0.42);
+      transform: scale(1.04);
+    }
 
-    .envelope-wrapper { background: var(--bg-envelope-color); box-shadow: 0 0 40px var(--shadow-color); cursor:pointer; position:relative; }
-    .envelope-wrapper > .envelope { height:230px; position:relative; width:300px; }
-    .envelope-wrapper > .envelope::before { border-left:150px solid transparent; border-right:150px solid transparent; border-top:130px solid var(--envelope-tab); content: ""; position:absolute; top:0; transform-origin:top; transition:all 0.5s ease-in-out 0.7s; z-index:2; }
-    .envelope-wrapper > .envelope::after { border-bottom:100px solid var(--envelope-cover); border-left:150px solid var(--envelope-cover); border-right:150px solid var(--envelope-cover); border-top:130px solid transparent; content: ""; height:0; position:absolute; width:0; z-index:2; }
+    .bg-portada::after {
+      content: "";
+      position: absolute;
+      inset: 0;
+      background: radial-gradient(ellipse at center, transparent 30%, rgba(0, 0, 0, 0.45) 100%);
+    }
 
-    .envelope > .letter { background-position:50%; background-size:cover; bottom:0; box-shadow:0 0 5px var(--shadow-color); height:80%; padding:0; position:absolute; right:20%; text-align:center; transition:all 1s ease-in-out; width:54%; z-index:1; overflow:hidden; background-image: url('/img/portada.webp'); }
-    .envelope > .letter img{ width:100%; height:100%; object-fit:cover; }
+    .ver-invitacion-btn {
+      position: absolute;
+      top: 50%;
+      left: 50%;
+      transform: translate(-50%, -50%);
+      z-index: 5;
+      background-color: #d15d5d;
+      color: #fff;
+      border: none;
+      padding: 8px 16px;
+      border-radius: 6px;
+      font-family: var(--font-body);
+      font-size: 0.85rem;
+      font-weight: 500;
+      cursor: pointer;
+      white-space: nowrap;
+      box-shadow: 0 2px 8px rgba(0, 0, 0, 0.25);
+    }
 
-    .heart { background: #e01a76; box-shadow: 0 1px 6px var(--shadow-color); cursor:pointer; left:50%; top:52%; transform: translate(-50%,-20%) rotate(45deg); transition: transform 0.5s ease-in-out 1s; z-index:4; height:15px; width:15px; position:absolute; }
-    .heart::after, .heart::before { background-color:#e01a76; border-radius:50%; content:''; height:15px; width:15px; position:absolute; }
-    .heart::before{ top:-7.5px; } .heart::after{ right:7.5px; }
+    .ver-invitacion-btn:hover {
+      background-color: #c44a4a;
+    }
 
-    .overlay-meta .ghost-name{ font-family:var(--font-script); font-size:clamp(3rem,12vw,5.5rem); opacity:0.28; line-height:1; position:absolute; left:50%; top:-70px; transform:translateX(-50%); white-space:nowrap; width:100vw; text-align:center; }
+    .envelope-wrapper {
+      background: var(--bg-envelope-color);
+      box-shadow: 0 0 40px var(--shadow-color);
+      cursor: pointer;
+      position: relative;
+    }
 
-    .hero { min-height:100vh; display:flex; align-items:center; justify-content:center; text-align:center; background: url('/img/portada.jpg') center/cover no-repeat; color:#fff; position:relative; }
-    .hero::before { content:''; position:absolute; inset:0; background: linear-gradient(180deg, rgba(0,0,0,0.3), rgba(0,0,0,0.55)); }
+    .envelope-wrapper>.envelope {
+      height: 230px;
+      position: relative;
+      width: 300px;
+    }
+
+    .envelope-wrapper>.envelope::before {
+      border-left: 150px solid transparent;
+      border-right: 150px solid transparent;
+      border-top: 130px solid var(--envelope-tab);
+      content: "";
+      position: absolute;
+      top: 0;
+      transform-origin: top;
+      transition: all 0.5s ease-in-out 0.7s;
+      z-index: 2;
+    }
+
+    .envelope-wrapper>.envelope::after {
+      border-bottom: 100px solid var(--envelope-cover);
+      border-left: 150px solid var(--envelope-cover);
+      border-right: 150px solid var(--envelope-cover);
+      border-top: 130px solid transparent;
+      content: "";
+      height: 0;
+      position: absolute;
+      width: 0;
+      z-index: 2;
+    }
+
+    .envelope>.letter {
+      background-position: 50%;
+      background-size: cover;
+      bottom: 0;
+      box-shadow: 0 0 5px var(--shadow-color);
+      height: 80%;
+      padding: 0;
+      position: absolute;
+      right: 20%;
+      text-align: center;
+      transition: all 1s ease-in-out;
+      width: 54%;
+      z-index: 1;
+      overflow: hidden;
+      background-image: url('/img/portada.webp');
+    }
+
+    .envelope>.letter img {
+      width: 100%;
+      height: 100%;
+      object-fit: cover;
+    }
+
+    .heart {
+      background: #e01a76;
+      box-shadow: 0 1px 6px var(--shadow-color);
+      cursor: pointer;
+      left: 50%;
+      top: 52%;
+      transform: translate(-50%, -20%) rotate(45deg);
+      transition: transform 0.5s ease-in-out 1s;
+      z-index: 4;
+      height: 15px;
+      width: 15px;
+      position: absolute;
+    }
+
+    .heart::after,
+    .heart::before {
+      background-color: #e01a76;
+      border-radius: 50%;
+      content: '';
+      height: 15px;
+      width: 15px;
+      position: absolute;
+    }
+
+    .heart::before {
+      top: -7.5px;
+    }
+
+    .heart::after {
+      right: 7.5px;
+    }
+
+    .overlay-meta .ghost-name {
+      font-family: var(--font-script);
+      font-size: clamp(3rem, 12vw, 5.5rem);
+      opacity: 0.28;
+      line-height: 1;
+      position: absolute;
+      left: 50%;
+      top: -70px;
+      transform: translateX(-50%);
+      white-space: nowrap;
+      width: 100vw;
+      text-align: center;
+    }
+
+    .hero {
+      min-height: 100vh;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      text-align: center;
+      background: url('/img/portada.jpg') center/cover no-repeat;
+      color: #fff;
+      position: relative;
+    }
+
+    .hero::before {
+      content: '';
+      position: absolute;
+      inset: 0;
+      background: linear-gradient(180deg, rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.55));
+    }
 
 
-     
+
     /* other global rules are present in component CSS files */
-    </style>
-    <style>:root{--accent:#e01a76;--gold1:#e0c060;--bg-grad-1:linear-gradient(180deg,#051a1c 0%, #072f33 60%);--glass:rgba(255,255,255,0.06)}html,bodyheight:100%;}body{font-family:"Montserrat", system-ui, -apple-system, "Segoe UI", Roboto, "Helvetica Neue", Arial;line-height:1.4;color:#1f2933;-webkit-font-smoothing:antialiased}@media (prefers-reduced-motion: reduce){*{animation:none !important;transition:none !important}}</style><link rel="stylesheet" href="/styles.css" media="print" onload="this.media='all'"><noscript><link rel="stylesheet" href="/styles.css"></noscript>
-  <style>:root{--primary:#fff;--bg-color:#05353d;--bg-envelope-color:#f5edd1;--envelope-tab:#ecdeb8;--envelope-cover:#e6cfa7;--shadow-color:rgba(0, 0, 0, .2);--txt-color:#444;--font-script:"Dancing Script", cursive;--font-body:"Montserrat", system-ui, sans-serif}*{box-sizing:border-box;margin:0;padding:0}html{scroll-behavior:smooth}body{font-family:var(--font-body);background:#000;color:#222;overflow-x:hidden;-webkit-font-smoothing:antialiased}@media(prefers-reduced-motion:reduce){*{animation:none!important;transition:none!important}}:root{--swiper-theme-color:#007aff }:root{--swiper-navigation-size:44px }</style><link rel="stylesheet" href="styles.6d95827728bf67d7.css" media="print" onload="this.media='all'"><noscript><link rel="stylesheet" href="styles.6d95827728bf67d7.css"></noscript></head>
-  <body style="margin:0!important">
-    <app-root></app-root>
-  <script src="runtime.fc4401bd230cd686.js" type="module"></script><script src="polyfills.f0cdca262850b15b.js" type="module"></script><script src="scripts.94bcbb83868f7a0b.js" defer></script><script src="main.54728b91d1b285e1.js" type="module"></script></body>
+  </style>
+  <style>:root{--accent:#e01a76;--gold1:#e0c060;--bg-grad-1:linear-gradient(180deg, #051a1c 0%, #072f33 60%);--glass:rgba(255, 255, 255, 0.06)}html,body{height:100%}body{font-family:"Montserrat", system-ui, -apple-system, "Segoe UI", Roboto, "Helvetica Neue", Arial;line-height:1.4;color:#1f2933;-webkit-font-smoothing:antialiased}@media (prefers-reduced-motion: reduce) {*{animation:none !important;transition:none !important}}</style><link rel="stylesheet" href="/styles.css" media="print" onload="this.media='all'"><noscript><link rel="stylesheet" href="/styles.css"></noscript>
+<style>:root{--accent:#e01a76;--gold1:#e0c060;--bg-grad-1:linear-gradient(180deg, #051a1c 0%, #072f33 60%);--glass:rgba(255, 255, 255, 0.06)}html,body{height:100%}body{font-family:"Montserrat", system-ui, -apple-system, "Segoe UI", Roboto, "Helvetica Neue", Arial;line-height:1.4;color:#1f2933;-webkit-font-smoothing:antialiased}@media (prefers-reduced-motion: reduce) {*{animation:none !important;transition:none !important}}</style><link rel="stylesheet" href="styles.css" media="print" onload="this.media='all'"><noscript><link rel="stylesheet" href="styles.css"></noscript></head>
+
+<body style="margin:0!important">
+  <app-root></app-root>
+<script src="runtime.js" type="module"></script><script src="polyfills.js" type="module"></script><script src="scripts.js" defer></script><script src="main.js" type="module"></script></body>
+
 </html>

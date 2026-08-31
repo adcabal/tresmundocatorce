@@ -1,10 +1,9 @@
-
 {
   "configuracion": {
-    "tipoMusica": "audio",  
-    "musica": "audio/cancion.mp3",  
+    "tipoMusica": "audio",
+    "musica": "audio/cancion.mp3",
     "youtube1": "https://www.youtube.com/watch?v=NZGHXy1IAHM",
-    "youtube": "https://www.youtube.com/watch?v=-ABdp7ty0KE&list=RD-ABdp7ty0KE&start_radio=1", 
+    "youtube": "https://www.youtube.com/watch?v=-ABdp7ty0KE&list=RD-ABdp7ty0KE&start_radio=1",
     "loading": true,
     "tema": {
       "colores": {
@@ -17,15 +16,12 @@
       }
     }
   },
-
   "secciones": {
-
     "sobreEvento": {
       "activo": true,
       "titulo": "Briseida · Mis XV",
       "subtitulo": null
     },
-
     "inicio": {
       "activo": true,
       "festejados": [
@@ -40,7 +36,6 @@
         "opacidad": 0.5
       }
     },
-
     "contador": {
       "activo": true,
       "titulo": "Sólo Faltan..",
@@ -51,22 +46,28 @@
         "opacidad": 0.65
       }
     },
-
     "padres": {
       "activo": true,
       "titulo": " <h2 class='titulo'>¡Mis XV!</h2><br><p  >Después de 15 años de vida, me complace invitarte a celebrar este momento tan especial.<br><br>Con mucha ilusión y alegría, quiero compartir contigo una noche llena de magia, recuerdos y nuevos comienzos.<br><br>Tu presencia hará que este día sea aún más inolvidable.</p>",
       "subtitulo": "Este día tan maravilloso",
       "padres": [
-        { "id":1,"parentesco":"Papá","nombre": "Adan Caballero Zapata"},
-        { "id":2,"parentesco":"Mamá","nombre": "Yahaira Verenice Mata Martinez"}
-        ],
+        {
+          "id": 1,
+          "parentesco": "Papá",
+          "nombre": "Adan Caballero Zapata"
+        },
+        {
+          "id": 2,
+          "parentesco": "Mamá",
+          "nombre": "Yahaira Verenice Mata Martinez"
+        }
+      ],
       "imagenFondo": null,
       "fondo": {
         "color": "#000000",
         "opacidad": 0.5
       }
     },
-
     "padrinos": {
       "activo": false,
       "titulo": "Celebra con nosotros",
@@ -81,29 +82,27 @@
         "opacidad": 0.5
       }
     },
-
     "eventos": [
       {
         "activo": false,
         "tipo": "ceremonia",
         "titulo": "CEREMONIA RELIGIOSA",
-        "lugar": "Ziba",
+        "lugar": "Zibá",
         "hora": "17:00",
         "ubicacion": null,
         "imagenFondo": null
       },
       {
         "activo": true,
-        "verMapa":false,
+        "verMapa": false,
         "tipo": "recepcion",
-        "titulo": "ZIBÁ EVENTOS Salón Terraza",
+        "titulo": "ZIBÁ EVENTOS Salon terraza",
         "lugar": " Av. Sendero Divisorio 1400, casi esquina con Av. Universidad",
         "hora": "19:30",
         "ubicacion": "25.7675013,-100.2911752",
         "imagenFondo": "img/recepcion.jpeg"
       }
     ],
-
     "itinerario": [
       {
         "hora": "7:30 PM ",
@@ -134,9 +133,8 @@
         "hora": "1:00 AM",
         "titulo": "Fin del evento",
         "icono": "🌙"
-      } 
+      }
     ],
-
     "galeria": {
       "activo": true,
       "imagenes": [
@@ -154,45 +152,41 @@
         "img/carrousel_12.jpeg",
         "img/carrousel_13.jpeg",
         "img/carrousel_14.jpeg",
-        "img/carrousel_15.jpeg" 
-
+        "img/carrousel_15.jpeg"
       ]
     },
-
     "mesaRegalos": {
       "activo": true,
       "titulo": "Lluvia de Sobres",
-      "subtitulos":null,
+      "subtitulos": null,
       "subtitulos1": [
         "Su presencia en mi fiesta de quince años es el mejor regalo que puedo recibir.",
         "Sin embargo, si desean hacerme un obsequio adicional, les agradezco de antemano por su generosidad.",
         "¡Gracias por ser parte de este día tan especial!"
       ],
       "imagenFondo": "img/carrousel_15.jpeg",
-      "imagenRegalo":"/img/regalo.png"
+      "imagenRegalo": "/img/regalo.png"
     },
     "vestimenta": {
       "activo": true,
       "titulo": "Dress Code:",
-      "subtitulo":"Formal",
-      "descripcion":  "Se reserva el color <span>Guindo</span> para la Quinceañera", 
-      "imagenFondo": "img/vestimenta.png" 
+      "subtitulo": "Formal",
+      "descripcion": "Se reserva el color <span>Guindo</span> para la Quinceañera",
+      "imagenFondo": "img/vestimenta.png"
     },
-    "confirmacion":{
-      "activarNumeroInvitados":false,
-      "activarMensaje":true,
-
-      "telefono":"8121586492",
+    "confirmacion": {
+      "activarNumeroInvitados": false,
+      "activarMensaje": true,
+      "telefono": "8121586492",
       "festejados": [
         "Briseida Berenice"
       ]
     },
-    "footer":{
+    "footer": {
       "festejados": [
         "Briseida Berenice"
       ],
-      "titulo":"Mis XV · 12 de Septiembre 2026"
+      "titulo": "Mis XV · 12 de Septiembre 2026"
     }
   }
 }
- 
