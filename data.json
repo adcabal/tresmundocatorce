@@ -171,7 +171,7 @@
       "activo": true,
       "titulo": "Dress Code:",
       "subtitulo": "Formal",
-      "descripcion": "Se reserva el color <span>Guindo</span> para la Quinceañera",
+      "descripcion": "Se reserva el color <div>Rojo y/o Guindo</div> para la Quinceañera",
       "imagenFondo": "img/vestimenta.png"
     },
     "confirmacion": {
