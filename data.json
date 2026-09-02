@@ -28,7 +28,7 @@
         "Debanny Yuridith"
       ],
       "titulo": "— NO FALTES A MIS XV —",
-      "subtitulo": "17 de Noviembre 2026",
+      "subtitulo": "17 de Octubre 2026",
       "fechaEvento": "2026-10-17 20:00:00",
       "imagenFondo": "img/portada.jpg",
       "fondo": {
@@ -69,7 +69,7 @@
       }
     },
     "padrinos": {
-      "activo": true,
+      "activo": false,
       "titulo": "Celebra con nosotros",
       "subtitulo": "Este día tan maravilloso",
       "padrinos": [
@@ -142,8 +142,6 @@
     "galeria": {
       "activo": true,
       "imagenes": [
-        "img/carrousel_1.jpeg",
-        "img/carrousel_2.jpeg",
         "img/carrousel_3.jpeg",
         "img/carrousel_15.jpeg"
       ]
@@ -179,7 +177,7 @@
       "festejados": [
         "Debanny Yuridith "
       ],
-      "titulo": "Mis XV · 17 de Noviembre 2026"
+      "titulo": "Mis XV · 17 de Octubre 2026"
     }
   }
 }
