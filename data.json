@@ -113,13 +113,13 @@
     ],
     "itinerario": [
       {
-        "hora": "5:00 PM ",
+        "hora": "4:30 PM ",
         "titulo": "Recepcion",
         "icono": "🏛️"
       },
       
       {
-        "hora": "7:00 PM",
+        "hora": "5:00 - 7:00 PM",
         "titulo": "Comida",
         "icono": "🍽️"
       }, 
@@ -129,12 +129,12 @@
         "icono": "🎵"
       },
       {
-        "hora": "8:15 PM",
+        "hora": "9:00 PM",
         "titulo": "Vals",
         "icono": "💃"
       },
       {
-        "hora": "11:00 PM",
+        "hora": "12:00 PM",
         "titulo": "Fin del evento",
         "icono": "🌙"
       }
@@ -161,7 +161,7 @@
       "imagenRegalo": "/img/regalo.png"
     },
     "vestimenta": {
-      "activo": true,
+      "activo": false,
       "titulo": "Dress Code:",
       "subtitulo": "Formal",
       "descripcion": "Se reserva el color <span>Guindo</span> para la Quinceañera",
