@@ -72,18 +72,7 @@
       "activo": false,
       "titulo": "Celebra con nosotros",
       "subtitulo": "Este día tan maravilloso",
-      "padrinos": [
-          {
-          "id": 1,
-          "parentesco": "Padrino",
-          "nombre": "Javier Hernández Aguilera"
-        },
-        {
-          "id": 2,
-          "parentesco": "Madrina",
-          "nombre": "Aracely Aguilera"
-        } 
-      ],
+      "padrinos": [],
       "imagenFondo": null,
       "fondo": {
         "color": "#000000",
