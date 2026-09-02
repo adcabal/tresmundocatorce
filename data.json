@@ -19,17 +19,17 @@
   "secciones": {
     "sobreEvento": {
       "activo": true,
-      "titulo": "Briseida · Mis XV",
+      "titulo": "Debanny Yuridith  · Mis XV",
       "subtitulo": null
     },
     "inicio": {
       "activo": true,
       "festejados": [
-        "Briseida Berenice"
+        "Debanny Yuridith"
       ],
       "titulo": "— NO FALTES A MIS XV —",
       "subtitulo": null,
-      "fechaEvento": "2026-09-12T20:00:00",
+      "fechaEvento": "2026-10-17 20:00:00",
       "imagenFondo": "img/portada.jpg",
       "fondo": {
         "color": "#05353d",
@@ -48,18 +48,18 @@
     },
     "padres": {
       "activo": true,
-      "titulo": " <h2 class='titulo'>¡Mis XV!</h2><br><p  >Después de 15 años de vida, me complace invitarte a celebrar este momento tan especial.<br><br>Con mucha ilusión y alegría, quiero compartir contigo una noche llena de magia, recuerdos y nuevos comienzos.<br><br>Tu presencia hará que este día sea aún más inolvidable.</p>",
+      "titulo": " <h2 class='titulo'>¡Mis XV!</h2><br><p >Con mucha ilusión y alegría, quiero compartir contigo un momento muy especial en my vida.Ha llegado el día que cumpliré mis 15 años y sería un honor que me acompañes para celebrarlo juntos.</p>",
       "subtitulo": "Este día tan maravilloso",
       "padres": [
         {
           "id": 1,
           "parentesco": "Papá",
-          "nombre": "Adan Caballero Zapata"
+          "nombre": "Javier Hernández Aguilera"
         },
         {
           "id": 2,
           "parentesco": "Mamá",
-          "nombre": "Yahaira Verenice Mata Martinez"
+          "nombre": "Sandra Rodríguez Marín"
         }
       ],
       "imagenFondo": null,
@@ -69,13 +69,21 @@
       }
     },
     "padrinos": {
-      "activo": false,
+      "activo": true,
       "titulo": "Celebra con nosotros",
       "subtitulo": "Este día tan maravilloso",
-      "padrinos": {
-        "padrino": "Adan Caballero Zapata",
-        "madrina": "Yahaira Verenice Mata Martinez"
-      },
+      "padrinos": [
+          {
+          "id": 1,
+          "parentesco": "Padrino",
+          "nombre": "Javier Hernández Aguilera"
+        },
+        {
+          "id": 2,
+          "parentesco": "Madrina",
+          "nombre": "Aracely Aguilera"
+        } 
+      ],
       "imagenFondo": null,
       "fondo": {
         "color": "#000000",
@@ -96,18 +104,29 @@
         "activo": true,
         "verMapa": false,
         "tipo": "recepcion",
-        "titulo": "ZIBÁ EVENTOS Salon terraza",
-        "lugar": " Av. Sendero Divisorio 1400, casi esquina con Av. Universidad",
-        "hora": "19:30",
-        "ubicacion": "25.7675013,-100.2911752",
+        "titulo": "Lawrence haven",
+        "lugar": "1307 Sam Houston Dr, Victoria, TX 77901",
+        "hora": "17:00",
+        "ubicacion": "28.82626463038136, -96.97907192523861",
         "imagenFondo": "img/recepcion.jpeg"
       }
     ],
     "itinerario": [
       {
-        "hora": "7:30 PM ",
+        "hora": "5:00 PM ",
         "titulo": "Recepcion",
         "icono": "🏛️"
+      },
+      
+      {
+        "hora": "7:00 PM",
+        "titulo": "Comida",
+        "icono": "🍽️"
+      }, 
+      {
+        "hora": "8:00PM",
+        "titulo": "Baile",
+        "icono": "🎵"
       },
       {
         "hora": "8:15 PM",
@@ -115,22 +134,7 @@
         "icono": "💃"
       },
       {
-        "hora": "9:00 PM",
-        "titulo": "Cena",
-        "icono": "🍽️"
-      },
-      {
-        "hora": "10:30 PM",
-        "titulo": "Presentación del Ballet",
-        "icono": "🎁"
-      },
-      {
-        "hora": "11:00PM",
-        "titulo": "¡Todos a bailar!",
-        "icono": "🎵"
-      },
-      {
-        "hora": "1:00 AM",
+        "hora": "11:00 PM",
         "titulo": "Fin del evento",
         "icono": "🌙"
       }
@@ -141,23 +145,12 @@
         "img/carrousel_1.jpeg",
         "img/carrousel_2.jpeg",
         "img/carrousel_3.jpeg",
-        "img/carrousel_4.jpeg",
-        "img/carrousel_5.jpeg",
-        "img/carrousel_6.jpeg",
-        "img/carrousel_7.jpeg",
-        "img/carrousel_8.jpeg",
-        "img/carrousel_9.jpeg",
-        "img/carrousel_10.jpeg",
-        "img/carrousel_11.jpeg",
-        "img/carrousel_12.jpeg",
-        "img/carrousel_13.jpeg",
-        "img/carrousel_14.jpeg",
         "img/carrousel_15.jpeg"
       ]
     },
     "mesaRegalos": {
       "activo": true,
-      "titulo": "Lluvia de Sobres",
+      "titulo": "Lluvia de Sobres y regalos",
       "subtitulos": null,
       "subtitulos1": [
         "Su presencia en mi fiesta de quince años es el mejor regalo que puedo recibir.",
@@ -171,22 +164,22 @@
       "activo": true,
       "titulo": "Dress Code:",
       "subtitulo": "Formal",
-      "descripcion": "Se reserva el color <div>Rojo y/o Guindo</div> para la Quinceañera",
+      "descripcion": "Se reserva el color <span>Guindo</span> para la Quinceañera",
       "imagenFondo": "img/vestimenta.png"
     },
     "confirmacion": {
       "activarNumeroInvitados": false,
       "activarMensaje": true,
-      "telefono": "8123705820",
+      "telefono": "8121586492",
       "festejados": [
-        "Briseida Berenice"
+        "Debanny Yuridith "
       ]
     },
     "footer": {
       "festejados": [
-        "Briseida Berenice"
+        "Debanny Yuridith "
       ],
-      "titulo": "Mis XV · 12 de Septiembre 2026"
+      "titulo": "Mis XV · 17 de Noviembre 2026"
     }
   }
 }
