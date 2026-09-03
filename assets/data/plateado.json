@@ -2,7 +2,8 @@
   "meta": {
     "slug": "plateado",
     "lang": "es",
-    "theme": "plateado"
+    "theme": "plateado",
+    "isPrototype": true
   },
   "couple": {
     "bride": "Perla",

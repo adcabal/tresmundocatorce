@@ -2,7 +2,8 @@
   "meta": {
     "slug": "default",
     "lang": "es",
-    "theme": "dorado-clasico"
+    "theme": "dorado-clasico",
+    "isPrototype": true
   },
   "couple": {
     "bride": "Karla",

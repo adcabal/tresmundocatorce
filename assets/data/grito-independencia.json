@@ -1,0 +1,161 @@
+{
+  "meta": {
+    "slug": "grito-independencia",
+    "lang": "es",
+    "theme": "tricolor-patrio",
+    "isPrototype": true
+  },
+  "couple": {
+    "bride": "¡Viva",
+    "groom": "México!",
+    "monogram": "15·S",
+    "label": "Grito de Independencia",
+    "imageBg": "assets/images/grito-hero.jpg"
+  },
+  "date": {
+    "iso": "2026-09-15T20:00:00",
+    "display": "Martes, 15 de septiembre 2026",
+    "short": "15 · 09 · 2026",
+    "day": "15",
+    "month": "septiembre",
+    "year": "2026"
+  },
+  "frase": {
+    "text": "¡Mexicanos! ¡Vivan los héroes que nos dieron patria! ¡Viva la Independencia! ¡Viva México!",
+    "author": "Grito de Dolores"
+  },
+  "historia": [
+    {
+      "title": "El origen",
+      "text": "En la madrugada del 16 de septiembre de 1810, el cura Miguel Hidalgo hizo sonar la campana de Dolores e inició el movimiento que daría libertad a nuestra nación.",
+      "image": "assets/images/grito-historia-1.jpg"
+    },
+    {
+      "title": "La fiesta",
+      "text": "Cada año, la noche del 15 de septiembre, mexicanos de todo el país se reúnen para celebrar con música, comida, colores y el grito que une a nuestra patria.",
+      "image": "assets/images/grito-historia-2.jpg"
+    },
+    {
+      "title": "Nuestra noche",
+      "text": "Este año queremos vivir esa tradición juntos: buena compañía, platillos típicos, mariachi y el grito a todo pulmón. ¡Te esperamos!",
+      "image": "assets/images/grito-historia-3.jpg"
+    }
+  ],
+  "galeria": [
+    {
+      "src": "assets/images/galeria-comida-1.jpg",
+      "alt": "Tacos al pastor",
+      "wide": true
+    },
+    {
+      "src": "assets/images/galeria-comida-2.jpg",
+      "alt": "Enchiladas verdes",
+      "wide": false
+    },
+    {
+      "src": "assets/images/galeria-comida-3.jpg",
+      "alt": "Guacamole fresco",
+      "wide": false
+    },
+    {
+      "src": "assets/images/galeria-comida-4.jpg",
+      "alt": "Elote mexicano",
+      "wide": true
+    },
+    {
+      "src": "assets/images/galeria-comida-5.jpg",
+      "alt": "Chiles en nogada",
+      "wide": false
+    },
+    {
+      "src": "assets/images/galeria-comida-6.jpg",
+      "alt": "Mole poblano",
+      "wide": false
+    }
+  ],
+  "ceremonia": {
+    "type": "El Grito",
+    "date": "15 de septiembre de 2026",
+    "time": "23:00 hrs",
+    "place": "Patio principal / Jardín",
+    "address": "Dirección completa del lugar",
+    "mapUrl": "https://www.google.com/maps/dir/?api=1&destination=Zocalo+Ciudad+de+Mexico"
+  },
+  "recepcion": {
+    "type": "Fiesta",
+    "time": "20:00 hrs",
+    "place": "Salón / Terraza de la celebración",
+    "address": "Dirección completa del lugar",
+    "mapUrl": "https://www.google.com/maps/dir/?api=1&destination=Zocalo+Ciudad+de+Mexico"
+  },
+  "itinerario": [
+    {
+      "hora": "20:00",
+      "titulo": "Bienvenida",
+      "descripcion": "Cóctel y antojitos mexicanos"
+    },
+    {
+      "hora": "21:00",
+      "titulo": "Cena",
+      "descripcion": "Platillos típicos"
+    },
+    {
+      "hora": "22:00",
+      "titulo": "Música",
+      "descripcion": "Mariachi y ambiente festivo"
+    },
+    {
+      "hora": "23:00",
+      "titulo": "El Grito",
+      "descripcion": "¡Viva México!"
+    },
+    {
+      "hora": "23:30",
+      "titulo": "Baile",
+      "descripcion": "Fiesta hasta que el cuerpo aguante"
+    }
+  ],
+  "dressCode": {
+    "value": "Tricolor / Mexicano",
+    "note": "Viste los colores de nuestra bandera o tu mejor look mexicano. Sombrero, rebozo, bordados… ¡lo que te haga sentir fiesta!"
+  },
+  "regalos": {
+    "title": "Un detalle para la fiesta",
+    "intro": "Tu presencia es lo más importante. Si deseas aportar algo a la celebración, aquí tienes algunas ideas.",
+    "buttonText": "Ver detalles",
+    "url": "#"
+  },
+  "rsvp": {
+    "question": "¿Nos acompañas al Grito?",
+    "buttonText": "Confirmar asistencia",
+    "whatsapp": "5210000000000",
+    "message": "Hola, confirmo mi asistencia a la fiesta del Grito de Independencia"
+  },
+  "music": {
+    "src": "assets/music/song-grito-independencia.mp3",
+    "autoplay": false
+  },
+  "footer": {
+    "thanks": "¡Viva México! Gracias por celebrar con nosotros"
+  },
+  "theme": {
+    "colors": {
+      "primary": "#006847",
+      "primaryDark": "#004d35",
+      "primaryLight": "#1a8a5c",
+      "secondary": "#ce1126",
+      "background": "#f3efe6",
+      "surface": "#fffdf8",
+      "text": "#1a1a1a",
+      "textLight": "#3d3d3d",
+      "muted": "#6b6b6b",
+      "accent": "#ce1126",
+      "border": "rgba(0, 104, 71, 0.22)"
+    },
+    "fonts": {
+      "display": "\"Playfair Display\", \"Cormorant Garamond\", Georgia, serif",
+      "body": "\"Inter\", \"Helvetica Neue\", Arial, sans-serif",
+      "script": "\"Great Vibes\", \"Allura\", cursive"
+    }
+  }
+}

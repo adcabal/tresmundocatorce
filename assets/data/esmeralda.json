@@ -2,7 +2,8 @@
   "meta": {
     "slug": "esmeralda",
     "lang": "es",
-    "theme": "esmeralda"
+    "theme": "esmeralda",
+    "isPrototype": true
   },
   "couple": {
     "bride": "Perla",

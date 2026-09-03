@@ -2,7 +2,8 @@
   "meta": {
     "slug": "durazno",
     "lang": "es",
-    "theme": "durazno"
+    "theme": "durazno",
+    "isPrototype": true
   },
   "couple": {
     "bride": "Perla",

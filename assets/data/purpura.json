@@ -2,7 +2,8 @@
   "meta": {
     "slug": "purpura",
     "lang": "es",
-    "theme": "purpura"
+    "theme": "purpura",
+    "isPrototype": true
   },
   "couple": {
     "bride": "Perla",

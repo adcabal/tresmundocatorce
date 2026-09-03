@@ -2,7 +2,8 @@
   "meta": {
     "slug": "guindo",
     "lang": "es",
-    "theme": "guindo"
+    "theme": "guindo",
+    "isPrototype": true
   },
   "couple": {
     "bride": "Perla",

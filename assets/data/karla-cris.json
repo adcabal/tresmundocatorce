@@ -2,7 +2,8 @@
   "meta": {
     "slug": "Karla-Chris",
     "lang": "es",
-    "theme": "rosa-elegante"
+    "theme": "rosa-elegante",
+    "isPrototype": true
   },
   "couple": {
     "bride": "Karla",

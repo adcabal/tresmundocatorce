@@ -5,7 +5,8 @@
     "theme": "verde-limon",
     "theme1": "rosa-elegante",
     "theme2": "verde-limon",
-    "theme3": "clasico"
+    "theme3": "clasico",
+    "isPrototype": true
   },
   "couple": {
     "bride": "Adán",

@@ -2,7 +2,8 @@
   "meta": {
     "slug": "azul-celeste",
     "lang": "es",
-    "theme": "azul-celeste"
+    "theme": "azul-celeste",
+    "isPrototype": true
   },
   "couple": {
     "bride": "Perla",
