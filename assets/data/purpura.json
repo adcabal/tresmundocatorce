@@ -1,0 +1,160 @@
+{
+  "meta": {
+    "slug": "purpura",
+    "lang": "es",
+    "theme": "purpura"
+  },
+  "couple": {
+    "bride": "Perla",
+    "groom": "Adán",
+    "monogram": "P·A",
+    "label": "Nuestra Boda",
+    "imageBg": "assets/images/hero-bg.jpg"
+  },
+  "date": {
+    "iso": "2027-04-17T18:00:00",
+    "display": "Sábado, 17 de abril 2027",
+    "short": "17 · 04 · 2027",
+    "day": "17",
+    "month": "abril",
+    "year": "2027"
+  },
+  "frase": {
+    "text": "El amor no consiste en mirarse el uno al otro, sino en mirar juntos en la misma dirección.",
+    "author": "Antoine de Saint-Exupéry"
+  },
+  "historia": [
+    {
+      "title": "El comienzo",
+      "text": "Todo empezó con una mirada, una conversación que se alargó y la certeza de que habíamos encontrado a la persona con quien queríamos escribir el resto de la historia.",
+      "image": "assets/images/historia-1.jpg"
+    },
+    {
+      "title": "Creciendo juntos",
+      "text": "Viajes, risas, proyectos compartidos y el descubrimiento diario de que el amor se construye en los detalles cotidianos.",
+      "image": "assets/images/historia-2.jpg"
+    },
+    {
+      "title": "El sí",
+      "text": "Y llegó el momento de dar el siguiente paso. Hoy queremos celebrar este amor rodeados de las personas que más queremos.",
+      "image": "assets/images/historia-3.jpg"
+    }
+  ],
+  "galeria": [
+    {
+      "src": "assets/images/galeria-1.jpg",
+      "alt": "Perla & Adán 1",
+      "wide": true
+    },
+    {
+      "src": "assets/images/galeria-2.jpg",
+      "alt": "Perla & Adán 2",
+      "wide": false
+    },
+    {
+      "src": "assets/images/galeria-3.jpg",
+      "alt": "Perla & Adán 3",
+      "wide": false
+    },
+    {
+      "src": "assets/images/galeria-4.jpg",
+      "alt": "Perla & Adán 4",
+      "wide": true
+    },
+    {
+      "src": "assets/images/galeria-5.jpg",
+      "alt": "Perla & Adán 5",
+      "wide": false
+    },
+    {
+      "src": "assets/images/galeria-6.jpg",
+      "alt": "Perla & Adán 6",
+      "wide": false
+    }
+  ],
+  "ceremonia": {
+    "type": "Ceremonia",
+    "date": "17 de abril de 2027",
+    "time": "18:00 hrs",
+    "place": "Iglesia / Lugar de la ceremonia",
+    "address": "Dirección completa del lugar",
+    "mapUrl": "https://maps.google.com"
+  },
+  "recepcion": {
+    "type": "Recepción",
+    "time": "20:00 hrs",
+    "place": "Salón / Venue de la recepción",
+    "address": "Dirección completa del lugar",
+    "mapUrl": "https://maps.google.com"
+  },
+  "itinerario": [
+    {
+      "hora": "18:00",
+      "titulo": "Ceremonia",
+      "descripcion": "Intercambio de votos"
+    },
+    {
+      "hora": "20:00",
+      "titulo": "Recepción",
+      "descripcion": "Cóctel de bienvenida"
+    },
+    {
+      "hora": "21:00",
+      "titulo": "Cena",
+      "descripcion": "Banquete"
+    },
+    {
+      "hora": "22:30",
+      "titulo": "Baile",
+      "descripcion": "Apertura de pista"
+    },
+    {
+      "hora": "00:00",
+      "titulo": "Celebración",
+      "descripcion": "Fiesta hasta el amanecer"
+    }
+  ],
+  "dressCode": {
+    "value": "Formal",
+    "note": "Nos encantará verte celebrar con nosotros. Elige tu mejor look para acompañarnos en este día tan especial."
+  },
+  "regalos": {
+    "title": "Un detalle para nosotros",
+    "intro": "Tu presencia es nuestro mejor regalo. Si deseas hacernos un obsequio, aquí tienes nuestra mesa de regalos.",
+    "buttonText": "Mesa de regalos",
+    "url": "#"
+  },
+  "rsvp": {
+    "question": "¿Nos acompañas?",
+    "buttonText": "Confirmar asistencia",
+    "whatsapp": "5210000000000",
+    "message": "Hola, confirmo mi asistencia a la boda de Perla & Adán"
+  },
+  "music": {
+    "src": "assets/music/song.mp3",
+    "autoplay": false
+  },
+  "footer": {
+    "thanks": "Gracias por acompañarnos"
+  },
+  "theme": {
+    "colors": {
+      "primary": "#7e22ce",
+      "primaryDark": "#4c1d95",
+      "primaryLight": "#a855f7",
+      "secondary": "#d8b4fe",
+      "background": "#faf5ff",
+      "surface": "#ffffff",
+      "text": "#3b0764",
+      "textLight": "#581c87",
+      "muted": "#a855f7",
+      "accent": "#c084fc",
+      "border": "rgba(126, 34, 206, 0.18)"
+    },
+    "fonts": {
+      "display": "\"Playfair Display\", \"Cormorant Garamond\", Georgia, serif",
+      "body": "\"Inter\", \"Helvetica Neue\", Arial, sans-serif",
+      "script": "\"Great Vibes\", \"Allura\", cursive"
+    }
+  }
+}
