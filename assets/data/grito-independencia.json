@@ -1,9 +1,10 @@
 {
   "meta": {
-    "slug": "grito-independencia",
+    "slug": "FiestaPatria",
     "lang": "es",
     "theme": "tricolor-patrio",
-    "isPrototype": true
+    "isPrototype": true,
+    "efecto": "banderillas"
   },
   "couple": {
     "bride": "¡Viva",
@@ -138,24 +139,11 @@
   "footer": {
     "thanks": "¡Viva México! Gracias por celebrar con nosotros"
   },
-  "theme": {
-    "colors": {
-      "primary": "#006847",
-      "primaryDark": "#004d35",
-      "primaryLight": "#1a8a5c",
-      "secondary": "#ce1126",
-      "background": "#f3efe6",
-      "surface": "#fffdf8",
-      "text": "#1a1a1a",
-      "textLight": "#3d3d3d",
-      "muted": "#6b6b6b",
-      "accent": "#ce1126",
-      "border": "rgba(0, 104, 71, 0.22)"
-    },
+  "theme": { 
     "fonts": {
       "display": "\"Playfair Display\", \"Cormorant Garamond\", Georgia, serif",
       "body": "\"Inter\", \"Helvetica Neue\", Arial, sans-serif",
       "script": "\"Great Vibes\", \"Allura\", cursive"
     }
-  }
+  } 
 }

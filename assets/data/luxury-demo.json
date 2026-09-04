@@ -1,15 +1,16 @@
 {
   "meta": {
-    "slug": "Karla-Chris",
+    "slug": "luxury",
     "lang": "es",
-    "theme": "rosa-elegante",
-    "isPrototype": true
+    "theme": "Verde-limon",
+    "isPrototype": true,
+    "efecto": "calaveras"
   },
   "couple": {
-    "bride": "Karla",
-    "groom": "Chris",
-    "monogram": "K·C",
-    "label": "A Celebration",
+    "bride": "Adán",
+    "groom": "Perla",
+    "monogram": "A·P",
+    "label": "Nuestra Boda",
     "imageBg": "assets/images/hero-bg.jpg"
   },
   "date": {
@@ -44,32 +45,32 @@
   "galeria": [
     {
       "src": "assets/images/galeria-1.jpg",
-      "alt": "Perla & Adán 1",
+      "alt": "Marina & Joel 1",
       "wide": true
     },
     {
       "src": "assets/images/galeria-2.jpg",
-      "alt": "Perla & Adán 2",
+      "alt": "Marina & Joel 2",
       "wide": false
     },
     {
       "src": "assets/images/galeria-3.jpg",
-      "alt": "Perla & Adán 3",
+      "alt": "Marina & Joel 3",
       "wide": false
     },
     {
       "src": "assets/images/galeria-4.jpg",
-      "alt": "Perla & Adán 4",
+      "alt": "Marina & Joel 4",
       "wide": true
     },
     {
       "src": "assets/images/galeria-5.jpg",
-      "alt": "Perla & Adán 5",
+      "alt": "Marina & Joel 5",
       "wide": false
     },
     {
       "src": "assets/images/galeria-6.jpg",
-      "alt": "Perla & Adán 6",
+      "alt": "Marina & Joel 6",
       "wide": false
     }
   ],
@@ -129,7 +130,7 @@
     "question": "¿Nos acompañas?",
     "buttonText": "Confirmar asistencia",
     "whatsapp": "5210000000000",
-    "message": "Hola, confirmo mi asistencia a la boda de Perla & Adán"
+    "message": "Hola, confirmo mi asistencia a la boda de Marina & Joel"
   },
   "music": {
     "src": "assets/music/song.mp3",
@@ -138,20 +139,7 @@
   "footer": {
     "thanks": "Gracias por acompañarnos"
   },
-  "theme": {
-    "colors": {
-      "primary": "#9b6b6b",
-      "primaryDark": "#7a5252",
-      "primaryLight": "#b88888",
-      "secondary": "#c9a9a9",
-      "background": "#faf6f5",
-      "surface": "#ffffff",
-      "text": "#2c1e1e",
-      "textLight": "#5c4a4a",
-      "muted": "#a08a8a",
-      "accent": "#d4a373",
-      "border": "rgba(155, 107, 107, 0.15)"
-    },
+  "theme": { 
     "fonts": {
       "display": "\"Playfair Display\", \"Cormorant Garamond\", Georgia, serif",
       "body": "\"Inter\", \"Helvetica Neue\", Arial, sans-serif",

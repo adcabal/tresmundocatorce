@@ -1,0 +1,326 @@
+{
+  "designs": [
+    {
+      "slug": "luxury",
+      "name": "Luxury",
+      "description": "Diseño elegante y sofisticado",
+      "previewFile": "luxury-demo",
+      "active": true,
+      "color": "#65a30d"
+    },
+    {
+      "slug": "fiestapatria",
+      "name": "Fiesta Patria",
+      "description": "Diseño inspirado en celebraciones patrias",
+      "previewFile": "grito-independencia",
+      "active": true,
+      "color": "#006847"
+    },
+    {
+      "slug": "elegance",
+      "name": "Elegance",
+      "description": "Diseño glass con historia en carrusel lateral",
+      "previewFile": "elegance-demo",
+      "active": true,
+      "color": "#c4a484"
+    },
+    {
+      "slug": "luxury",
+      "name": "Rock",
+      "description": "Diseño elegante y sofisticado",
+      "previewFile": "luxury-rock",
+      "active": true,
+      "color": "#930e1d"
+    }
+  ],
+  "themes": [
+    {
+      "slug": "Verde-limon",
+      "name": "Verde Limón",
+      "active": true,
+      "previewFile": "luxury-demo",
+      "colors": {
+        "primary": "#65a30d",
+        "primaryDark": "#3f6212",
+        "primaryLight": "#84cc16",
+        "secondary": "#a3e635",
+        "background": "#f7fbf2",
+        "surface": "#ffffff",
+        "text": "#1a2e05",
+        "textLight": "#3f4e28",
+        "muted": "#748c58",
+        "accent": "#bef264",
+        "border": "rgba(101, 163, 13, 0.20)"
+      },
+      "fonts": {
+        "display": "\"Playfair Display\", \"Cormorant Garamond\", Georgia, serif",
+        "body": "\"Inter\", \"Helvetica Neue\", Arial, sans-serif",
+        "script": "\"Great Vibes\", \"Allura\", cursive"
+      }
+    },
+    {
+      "slug": "rock",
+      "name": "Rock",
+      "active": true,
+      "previewFile": "rock",
+      "colors": {
+        "primary": "#7F1D3A",
+        "primaryDark": "#3B0A18",
+        "primaryLight": "#991B3A",
+        "secondary": "#B91C3C",
+        "background": "#ffffff",
+        "surface": "#151515",
+        "text": "#B91C3C",
+        "textLight": "#991B3A",
+        "muted": "#A1A1AA",
+        "accent": "#D4A373",
+        "border": "rgba(127, 29, 58, 0.35)"
+      },
+      "fonts": {
+        "display": "\"Playfair Display\", \"Cormorant Garamond\", Georgia, serif",
+        "body": "\"Inter\", \"Helvetica Neue\", Arial, sans-serif",
+        "script": "\"Great Vibes\", \"Allura\", cursive"
+      }
+    },
+    {
+      "slug": "Durazno",
+      "name": "Durazno",
+      "active": true,
+      "previewFile": "durazno",
+      "colors": {
+        "primary": "#d97757",
+        "primaryDark": "#a64b2a",
+        "primaryLight": "#f09a7d",
+        "secondary": "#f7b297",
+        "background": "#fdf7f4",
+        "surface": "#ffffff",
+        "text": "#3a2822",
+        "textLight": "#6b5147",
+        "muted": "#a3877c",
+        "accent": "#e76f51",
+        "border": "rgba(217, 119, 87, 0.18)"
+      },
+      "fonts": {
+        "display": "\"Playfair Display\", \"Cormorant Garamond\", Georgia, serif",
+        "body": "\"Inter\", \"Helvetica Neue\", Arial, sans-serif",
+        "script": "\"Great Vibes\", \"Allura\", cursive"
+      }
+    },
+    {
+      "slug": "Azul-celeste",
+      "name": "Azul Celeste",
+      "active": true,
+      "previewFile": "azul-celeste",
+      "colors": {
+        "primary": "#0284c7",
+        "primaryDark": "#0369a1",
+        "primaryLight": "#38bdf8",
+        "secondary": "#bae6fd",
+        "background": "#f0f9ff",
+        "surface": "#ffffff",
+        "text": "#0c4a6e",
+        "textLight": "#0369a1",
+        "muted": "#7dd3fc",
+        "accent": "#38bdf8",
+        "border": "rgba(2, 132, 199, 0.18)"
+      },
+      "fonts": {
+        "display": "\"Playfair Display\", \"Cormorant Garamond\", Georgia, serif",
+        "body": "\"Inter\", \"Helvetica Neue\", Arial, sans-serif",
+        "script": "\"Great Vibes\", \"Allura\", cursive"
+      }
+    },
+    {
+      "slug": "Guindo/Vino",
+      "name": "Guindo / Vino",
+      "active": true,
+      "previewFile": "guindo",
+      "colors": {
+        "primary": "#800020",
+        "primaryDark": "#4a0e17",
+        "primaryLight": "#9e3848",
+        "secondary": "#d99b9b",
+        "background": "#fdf6f6",
+        "surface": "#ffffff",
+        "text": "#360910",
+        "textLight": "#5c1c25",
+        "muted": "#9e6b73",
+        "accent": "#b83247",
+        "border": "rgba(128, 0, 32, 0.18)"
+      },
+      "fonts": {
+        "display": "\"Playfair Display\", \"Cormorant Garamond\", Georgia, serif",
+        "body": "\"Inter\", \"Helvetica Neue\", Arial, sans-serif",
+        "script": "\"Great Vibes\", \"Allura\", cursive"
+      }
+    },
+    {
+      "slug": "Plateado",
+      "name": "Plateado",
+      "active": true,
+      "previewFile": "plateado",
+      "colors": {
+        "primary": "#64748b",
+        "primaryDark": "#334155",
+        "primaryLight": "#94a3b8",
+        "secondary": "#cbd5e1",
+        "background": "#f8fafc",
+        "surface": "#ffffff",
+        "text": "#1e293b",
+        "textLight": "#475569",
+        "muted": "#94a3b8",
+        "accent": "#64748b",
+        "border": "rgba(100, 116, 139, 0.18)"
+      },
+      "fonts": {
+        "display": "\"Playfair Display\", \"Cormorant Garamond\", Georgia, serif",
+        "body": "\"Inter\", \"Helvetica Neue\", Arial, sans-serif",
+        "script": "\"Great Vibes\", \"Allura\", cursive"
+      }
+    },
+    {
+      "slug": "Purpura",
+      "name": "Púrpura",
+      "active": true,
+      "previewFile": "purpura",
+      "colors": {
+        "primary": "#7e22ce",
+        "primaryDark": "#4c1d95",
+        "primaryLight": "#a855f7",
+        "secondary": "#d8b4fe",
+        "background": "#faf5ff",
+        "surface": "#ffffff",
+        "text": "#3b0764",
+        "textLight": "#581c87",
+        "muted": "#a855f7",
+        "accent": "#c084fc",
+        "border": "rgba(126, 34, 206, 0.18)"
+      },
+      "fonts": {
+        "display": "\"Playfair Display\", \"Cormorant Garamond\", Georgia, serif",
+        "body": "\"Inter\", \"Helvetica Neue\", Arial, sans-serif",
+        "script": "\"Great Vibes\", \"Allura\", cursive"
+      }
+    },
+    {
+      "slug": "verde-esmeralda",
+      "name": "Verde Esmeralda",
+      "active": true,
+      "previewFile": "esmeralda",
+      "colors": {
+        "primary": "#047857",
+        "primaryDark": "#064e3b",
+        "primaryLight": "#10b981",
+        "secondary": "#a7f3d0",
+        "background": "#f0fdf4",
+        "surface": "#ffffff",
+        "text": "#022c22",
+        "textLight": "#065f46",
+        "muted": "#6ee7b7",
+        "accent": "#10b981",
+        "border": "rgba(4, 120, 87, 0.18)"
+      },
+      "fonts": {
+        "display": "\"Playfair Display\", \"Cormorant Garamond\", Georgia, serif",
+        "body": "\"Inter\", \"Helvetica Neue\", Arial, sans-serif",
+        "script": "\"Great Vibes\", \"Allura\", cursive"
+      }
+    },
+    {
+      "slug": "Rosa-Elegante",
+      "name": "Rosa Elegante",
+      "active": true,
+      "previewFile": "karla-cris",
+      "colors": {
+        "primary": "#9b6b6b",
+        "primaryDark": "#7a5252",
+        "primaryLight": "#b88888",
+        "secondary": "#c9a9a9",
+        "background": "#faf6f5",
+        "surface": "#ffffff",
+        "text": "#2c1e1e",
+        "textLight": "#5c4a4a",
+        "muted": "#a08a8a",
+        "accent": "#d4a373",
+        "border": "rgba(155, 107, 107, 0.15)"
+      },
+      "fonts": {
+        "display": "\"Playfair Display\", \"Cormorant Garamond\", Georgia, serif",
+        "body": "\"Inter\", \"Helvetica Neue\", Arial, sans-serif",
+        "script": "\"Great Vibes\", \"Allura\", cursive"
+      }
+    },
+    {
+      "slug": "Dorado-Clasico",
+      "name": "Dorado Clásico",
+      "active": true,
+      "previewFile": "invitation",
+      "colors": {
+        "primary": "#c5a059",
+        "primaryDark": "#8c6d32",
+        "primaryLight": "#d4af37",
+        "secondary": "#dfc380",
+        "background": "#faf8f3",
+        "surface": "#ffffff",
+        "text": "#2b251a",
+        "textLight": "#594d38",
+        "muted": "#9e8b6b",
+        "accent": "#d4af37",
+        "border": "rgba(197, 160, 89, 0.20)"
+      },
+      "fonts": {
+        "display": "\"Playfair Display\", \"Cormorant Garamond\", Georgia, serif",
+        "body": "\"Inter\", \"Helvetica Neue\", Arial, sans-serif",
+        "script": "\"Great Vibes\", \"Allura\", cursive"
+      }
+    },
+    {
+      "slug": "tricolor-patrio",
+      "name": "Tricolor Patrio",
+      "active": true,
+      "previewFile": "grito-independencia",
+      "colors": {
+        "primary": "#006847",
+        "primaryDark": "#004d35",
+        "primaryLight": "#1a8a5c",
+        "secondary": "#ce1126",
+        "background": "#f3efe6",
+        "surface": "#fffdf8",
+        "text": "#1a1a1a",
+        "textLight": "#3d3d3d",
+        "muted": "#6b6b6b",
+        "accent": "#ce1126",
+        "border": "rgba(0, 104, 71, 0.22)"
+      },
+      "fonts": {
+        "display": "\"Playfair Display\", \"Cormorant Garamond\", Georgia, serif",
+        "body": "\"Inter\", \"Helvetica Neue\", Arial, sans-serif",
+        "script": "\"Great Vibes\", \"Allura\", cursive"
+      }
+    },
+    {
+      "slug": "otono",
+      "name": "Otoño",
+      "active": true,
+      "previewFile": "luxury-demo",
+      "colors": {
+        "primary": "#BF613F",
+        "primaryDark": "#9E4932",
+        "primaryLight": "#D8724D",
+        "secondary": "#C79A52",
+        "background": "#EFE0CC",
+        "surface": "#FAF4EA",
+        "text": "#30231F",
+        "textLight": "#542F27",
+        "muted": "#6F7048",
+        "accent": "#C79A52",
+        "border": "rgba(191, 97, 63, 0.2)"
+      },
+      "fonts": {
+        "display": "\"Playfair Display\", \"Cormorant Garamond\", Georgia, serif",
+        "body": "\"Inter\", \"Helvetica Neue\", Arial, sans-serif",
+        "script": "\"Great Vibes\", \"Allura\", cursive"
+      }
+    }
+  ]
+}

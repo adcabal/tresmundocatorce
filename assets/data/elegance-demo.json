@@ -1,0 +1,146 @@
+{
+  "meta": {
+    "slug": "elegance",
+    "lang": "es",
+    "theme": "Guindo/Vino",
+    "isPrototype": true,
+    "efecto": "corazones",
+    "doorImage": "assets/images/door_xv-2.png"
+  },
+  "couple": {
+    "bride": "Briseida Berenice",
+    "groom": "",
+    "monogram": "",
+    "label": "",
+    "imageBg": "assets/images/elegance-hero-bg.jpg"
+  },
+  "date": {
+    "iso": "2026-09-12T20:00:00",
+    "display": "Sábado, 12 de septiembre de 2026",
+    "short": "12 · 09 · 2026",
+    "day": "12",
+    "month": "septiembre",
+    "year": "2026",
+    "image": "assets/images/elegance-galeria-2.jpg"
+  },
+  "frase": {
+    "text": "Hay momentos en la vida que se convierten en recuerdos para siempre. Hoy quiero compartir uno de los más especiales contigo.",
+    "author": ""
+  },
+  "historia": [
+    {
+      "year": "2011",
+      "title": "El comienzo de mi historia",
+      "text": "Un día lleno de amor llegó al mundo una niña que con su alegría comenzó a llenar de momentos especiales la vida de quienes la rodean.",
+      "image": "assets/images/elegance-historia-1.jpg"
+    },
+    {
+      "year": "2016",
+      "title": "Creciendo y soñando",
+      "text": "Entre sonrisas, aventuras y sueños, fui creciendo rodeada del amor de mi familia y de personas muy especiales.",
+      "image": "assets/images/elegance-historia-2.jpg"
+    },
+    {
+      "year": "2021",
+      "title": "Nuevos sueños",
+      "text": "Cada etapa ha dejado recuerdos inolvidables y me ha acercado a la persona que hoy estoy descubriendo ser.",
+      "image": "assets/images/elegance-historia-3.jpg"
+    },
+    {
+      "year": "2026",
+      "title": "Mis XV años",
+      "text": "Hoy comienza una nueva etapa de mi vida y quiero celebrarla rodeada de las personas que más quiero.",
+      "image": "assets/images/elegance-historia-4.jpg"
+    }
+  ],
+  "galeria": [
+    {
+      "src": "assets/images/elegance-galeria-1.jpg",
+      "alt": "Momento 1",
+      "wide": true
+    },
+    {
+      "src": "assets/images/elegance-galeria-2.jpg",
+      "alt": "Momento 2",
+      "wide": false
+    },
+    {
+      "src": "assets/images/elegance-galeria-3.jpg",
+      "alt": "Momento 3",
+      "wide": false
+    }
+  ],
+  "ceremonia": {
+    "type": "Misa de Acción de Gracias",
+    "date": "12 de septiembre de 2026",
+    "time": "18:00 hrs",
+    "place": "Iglesia / Lugar de la ceremonia",
+    "address": "Dirección completa del lugar",
+    "mapUrl": "https://maps.google.com"
+  },
+  "recepcion": {
+    "type": "Recepción",
+    "time": "20:00 hrs",
+    "place": "Salón / Venue de la recepción",
+    "address": "Dirección completa del lugar",
+    "mapUrl": "https://maps.google.com"
+  },
+  "itinerario": [
+    {
+      "hora": "18:00",
+      "titulo": "Misa",
+      "descripcion": "Ceremonia de Acción de Gracias"
+    },
+    {
+      "hora": "20:00",
+      "titulo": "Recepción",
+      "descripcion": "Cóctel de bienvenida"
+    },
+    {
+      "hora": "21:00",
+      "titulo": "Cena",
+      "descripcion": "Cena y convivencia"
+    },
+    {
+      "hora": "22:00",
+      "titulo": "Vals",
+      "descripcion": "Baile especial de XV años"
+    },
+    {
+      "hora": "22:30",
+      "titulo": "Baile",
+      "descripcion": "¡A celebrar y disfrutar!"
+    }
+  ],
+  "dressCode": {
+    "value": "Formal",
+    "note": "Quiero compartir esta noche tan especial contigo. Elige tu mejor look y acompáñame a celebrar mis XV años.",
+    "image-background": "assets/images/elegance-historia-4.jpg"
+  },
+  "regalos": {
+    "title": "Un detalle para mí",
+    "intro": "Tu presencia es el mejor regalo que puedo recibir. Si deseas tener un detalle conmigo, será recibido con mucho cariño.",
+    "buttonText": "Lluvia e sobres",
+    "url": "#"
+  },
+  "rsvp": {
+    "question": "¿Me acompañas a celebrar?",
+    "buttonText": "Confirmar asistencia",
+    "whatsapp": "5210000000000",
+    "message": "Hola, confirmo mi asistencia a los XV años de Briseida Berenice"
+  },
+  "music": {
+    "src": "assets/music/song.mp3",
+    "autoplay": false
+  },
+  "footer": {
+    "thanks": "Gracias por acompañarme en este día tan especial"
+  },
+  "theme": {
+    "fonts": {
+      "display": "\"Playfair Display\", \"Cormorant Garamond\", Georgia, serif",
+      "body": "\"Inter\", \"Helvetica Neue\", Arial, sans-serif",
+      "script": "\"Great Vibes\", \"Allura\", cursive"
+    }
+  }
+}
