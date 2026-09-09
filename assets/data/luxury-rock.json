@@ -12,7 +12,8 @@
     "groom": "Perla",
     "monogram": "A·P",
     "label": "Nuestra Boda",
-    "imageBg": "assets/images/rock-hero.jpg"
+    "imageBg": "assets/images/rock-hero.jpg",
+    "active": true
   },
   "date": {
     "iso": "2027-04-17T18:00:00",
@@ -20,11 +21,13 @@
     "short": "17 · 04 · 2027",
     "day": "17",
     "month": "abril",
-    "year": "2027"
+    "year": "2027",
+    "active": true
   },
   "frase": {
     "text": "El amor no consiste en mirarse el uno al otro, sino en mirar juntos en la misma dirección.",
-    "author": "Antoine de Saint-Exupéry"
+    "author": "Antoine de Saint-Exupéry",
+    "active": true
   },
   "historia": [
     {
@@ -81,14 +84,16 @@
     "time": "18:00 hrs",
     "place": "Iglesia / Lugar de la ceremonia",
     "address": "Dirección completa del lugar",
-    "mapUrl": "https://www.google.com/maps/dir/?api=1&destination=Catedral+Metropolitana+de+la+Ciudad+de+Mexico"
+    "mapUrl": "https://www.google.com/maps/dir/?api=1&destination=Catedral+Metropolitana+de+la+Ciudad+de+Mexico",
+    "active": true
   },
   "recepcion": {
     "type": "Recepción",
     "time": "20:00 hrs",
     "place": "Salón / Venue de la recepción",
     "address": "Dirección completa del lugar",
-    "mapUrl": "https://www.google.com/maps/dir/?api=1&destination=Salon+de+Eventos+Jardines+del+Bosque"
+    "mapUrl": "https://www.google.com/maps/dir/?api=1&destination=Salon+de+Eventos+Jardines+del+Bosque",
+    "active": true
   },
   "itinerario": [
     {
@@ -119,32 +124,45 @@
   ],
   "dressCode": {
     "value": "Formal",
-    "note": "Nos encantará verte celebrar con nosotros. Elige tu mejor look para acompañarnos en este día tan especial."
+    "note": "Nos encantará verte celebrar con nosotros. Elige tu mejor look para acompañarnos en este día tan especial.",
+    "active": true
   },
   "regalos": {
     "title": "Un detalle para nosotros",
     "intro": "Tu presencia es nuestro mejor regalo. Si deseas hacernos un obsequio, aquí tienes nuestra mesa de regalos.",
     "buttonText": "Mesa de regalos",
-    "url": "#"
+    "url": "#",
+    "active": true
   },
   "rsvp": {
     "question": "¿Nos acompañas?",
     "buttonText": "Confirmar asistencia",
     "whatsapp": "5210000000000",
-    "message": "Hola, confirmo mi asistencia a la boda de Adan & Perla"
+    "message": "Hola, confirmo mi asistencia a la boda de Adan & Perla",
+    "active": true
   },
   "music": {
     "src": "assets/music/song.mp3",
-    "autoplay": false
+    "autoplay": false,
+    "active": true
   },
   "footer": {
     "thanks": "Gracias por acompañarnos"
   },
-  "theme": { 
+  "theme": {
     "fonts": {
       "display": "\"Playfair Display\", \"Cormorant Garamond\", Georgia, serif",
       "body": "\"Inter\", \"Helvetica Neue\", Arial, sans-serif",
       "script": "\"Great Vibes\", \"Allura\", cursive"
     }
-  } 
+  },
+  "itinerarioSection": {
+    "active": true
+  },
+  "galeriaSection": {
+    "active": true
+  },
+  "historiaSection": {
+    "active": true
+  }
 }

@@ -1,0 +1,177 @@
+{
+  "meta": {
+    "slug": "luxury-vip",
+    "lang": "es",
+    "theme": "Durazno",
+    "isPrototype": true,
+    "efecto": "nubes",
+    "video": "assets/video/luxury-vip-black.mp4",
+    "videoLocal": "https://firebasestorage.googleapis.com/v0/b/adainvite-app.firebasestorage.app/o/assets%2Ffondo.mp4?alt=media&token=62a19595-7b73-479a-82c6-86617e3e1af7"
+  },
+  "couple": {
+    "bride": "Karla",
+    "groom": "Christian",
+    "monogram": "K·C",
+    "label": "Nuestra Boda",
+    "imageBg": "assets/images/hero-bg.jpg",
+    "active": true
+  },
+  "date": {
+    "iso": "2027-04-17T18:00:00",
+    "display": "Sábado, 17 de abril 2027",
+    "short": "17 · 04 · 2027",
+    "day": "17",
+    "month": "abril",
+    "year": "2027",
+    "active": true
+  },
+  "frase": {
+    "text": "El amor no consiste en mirarse el uno al otro, sino en mirar juntos en la misma dirección.",
+    "author": "Antoine de Saint-Exupéry",
+    "active": true
+  },
+  "historia": [
+    {
+      "title": "El comienzo",
+      "text": "Todo empezó con una mirada, una conversación que se alargó y la certeza de que habíamos encontrado a la persona con quien queríamos escribir el resto de la historia.",
+      "image": "assets/images/historia-1.jpg"
+    },
+    {
+      "title": "Creciendo juntos",
+      "text": "Viajes, risas, proyectos compartidos y el descubrimiento diario de que el amor se construye en los detalles cotidianos.",
+      "image": "assets/images/historia-2.jpg"
+    },
+    {
+      "title": "El sí",
+      "text": "Y llegó el momento de dar el siguiente paso. Hoy queremos celebrar este amor rodeados de las personas que más queremos.",
+      "image": "assets/images/historia-3.jpg"
+    }
+  ],
+  "galeria": [
+    {
+      "src": "assets/images/galeria-1.jpg",
+      "alt": "Marina & Joel 1",
+      "wide": true
+    },
+    {
+      "src": "assets/images/galeria-2.jpg",
+      "alt": "Marina & Joel 2",
+      "wide": false
+    },
+    {
+      "src": "assets/images/galeria-3.jpg",
+      "alt": "Marina & Joel 3",
+      "wide": false
+    },
+    {
+      "src": "assets/images/galeria-4.jpg",
+      "alt": "Marina & Joel 4",
+      "wide": true
+    },
+    {
+      "src": "assets/images/galeria-5.jpg",
+      "alt": "Marina & Joel 5",
+      "wide": false
+    },
+    {
+      "src": "assets/images/galeria-6.jpg",
+      "alt": "Marina & Joel 6",
+      "wide": false
+    }
+  ],
+  "ceremonia": {
+    "type": "Ceremonia",
+    "date": "17 de abril de 2027",
+    "time": "18:00 hrs",
+    "place": "Iglesia / Lugar de la ceremonia",
+    "address": "Dirección completa del lugar",
+    "mapUrl": "https://maps.google.com",
+    "active": true
+  },
+  "recepcion": {
+    "type": "Recepción",
+    "time": "20:00 hrs",
+    "place": "Salón / Venue de la recepción",
+    "address": "Dirección completa del lugar",
+    "mapUrl": "https://maps.google.com",
+    "active": true
+  },
+  "itinerario": [
+    {
+      "hora": "18:00",
+      "titulo": "Ceremonia",
+      "descripcion": "Intercambio de votos"
+    },
+    {
+      "hora": "20:00",
+      "titulo": "Recepción",
+      "descripcion": "Cóctel de bienvenida"
+    },
+    {
+      "hora": "21:00",
+      "titulo": "Cena",
+      "descripcion": "Banquete"
+    },
+    {
+      "hora": "22:30",
+      "titulo": "Baile",
+      "descripcion": "Apertura de pista"
+    },
+    {
+      "hora": "00:00",
+      "titulo": "Celebración",
+      "descripcion": "Fiesta hasta el amanecer"
+    }
+  ],
+  "dressCode": {
+    "value": "Formal",
+    "note": "Nos encantará verte celebrar con nosotros. Elige tu mejor look para acompañarnos en este día tan especial.",
+    "active": true
+  },
+  "regalos": {
+    "title": "Mesa de Regalos",
+    "intro": "Tu presencia es nuestro mejor regalo. Si deseas hacernos un obsequio, puedes hacerlo mediante transferencia bancaria.",
+    "buttonText": "Mesa de regalos",
+    "url": "#",
+    "active": true,
+    "transferencia": {
+      "titulo": "Regalar por Transferencia",
+      "banco": "BBVA México",
+      "nombre": "Karla & Christian",
+      "clabe": "012180015555555555",
+      "active": true
+    }
+  },
+  "rsvp": {
+    "question": "¿Nos acompañas?",
+    "buttonText": "Confirmar asistencia",
+    "whatsapp": "5210000000000",
+    "message": "Hola, confirmo mi asistencia a la boda de Marina & Joel",
+    "active": true
+  },
+  "music": {
+    "src": "assets/music/song.mp3",
+    "autoplay": false,
+    "active": true
+  },
+  "footer": {
+    "thanks": "Gracias por acompañarnos",
+    "active": true
+  },
+  "theme": {
+    "fonts": {
+      "display": "\"Playfair Display\", \"Cormorant Garamond\", Georgia, serif",
+      "body": "\"Inter\", \"Helvetica Neue\", Arial, sans-serif",
+      "script": "\"Great Vibes\", \"Allura\", cursive"
+    }
+  },
+  "itinerarioSection": {
+    "active": true
+  },
+  "galeriaSection": {
+    "active": true
+  },
+  "historiaSection": {
+    "active": true
+  }
+}

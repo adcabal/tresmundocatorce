@@ -11,7 +11,8 @@
     "groom": "México!",
     "monogram": "15·S",
     "label": "Grito de Independencia",
-    "imageBg": "assets/images/grito-hero.jpg"
+    "imageBg": "assets/images/grito-hero.jpg",
+    "active": true
   },
   "date": {
     "iso": "2026-09-15T20:00:00",
@@ -19,11 +20,16 @@
     "short": "15 · 09 · 2026",
     "day": "15",
     "month": "septiembre",
-    "year": "2026"
+    "year": "2026",
+    "active": true
   },
   "frase": {
     "text": "¡Mexicanos! ¡Vivan los héroes que nos dieron patria! ¡Viva la Independencia! ¡Viva México!",
-    "author": "Grito de Dolores"
+    "author": "Grito de Dolores",
+    "active": true
+  },
+  "historiaSection": {
+    "active": true
   },
   "historia": [
     {
@@ -42,6 +48,9 @@
       "image": "assets/images/grito-historia-3.jpg"
     }
   ],
+  "galeriaSection": {
+    "active": true
+  },
   "galeria": [
     {
       "src": "assets/images/galeria-comida-1.jpg",
@@ -80,14 +89,19 @@
     "time": "23:00 hrs",
     "place": "Patio principal / Jardín",
     "address": "Dirección completa del lugar",
-    "mapUrl": "https://www.google.com/maps/dir/?api=1&destination=Zocalo+Ciudad+de+Mexico"
+    "mapUrl": "https://www.google.com/maps/dir/?api=1&destination=Zocalo+Ciudad+de+Mexico",
+    "active": true
   },
   "recepcion": {
     "type": "Fiesta",
     "time": "20:00 hrs",
     "place": "Salón / Terraza de la celebración",
     "address": "Dirección completa del lugar",
-    "mapUrl": "https://www.google.com/maps/dir/?api=1&destination=Zocalo+Ciudad+de+Mexico"
+    "mapUrl": "https://www.google.com/maps/dir/?api=1&destination=Zocalo+Ciudad+de+Mexico",
+    "active": true
+  },
+  "itinerarioSection": {
+    "active": true
   },
   "itinerario": [
     {
@@ -118,32 +132,37 @@
   ],
   "dressCode": {
     "value": "Tricolor / Mexicano",
-    "note": "Viste los colores de nuestra bandera o tu mejor look mexicano. Sombrero, rebozo, bordados… ¡lo que te haga sentir fiesta!"
+    "note": "Viste los colores de nuestra bandera o tu mejor look mexicano. Sombrero, rebozo, bordados… ¡lo que te haga sentir fiesta!",
+    "active": true
   },
   "regalos": {
     "title": "Un detalle para la fiesta",
     "intro": "Tu presencia es lo más importante. Si deseas aportar algo a la celebración, aquí tienes algunas ideas.",
     "buttonText": "Ver detalles",
-    "url": "#"
+    "url": "#",
+    "active": true
   },
   "rsvp": {
     "question": "¿Nos acompañas al Grito?",
     "buttonText": "Confirmar asistencia",
     "whatsapp": "5210000000000",
-    "message": "Hola, confirmo mi asistencia a la fiesta del Grito de Independencia"
+    "message": "Hola, confirmo mi asistencia a la fiesta del Grito de Independencia",
+    "active": true
   },
   "music": {
     "src": "assets/music/song-grito-independencia.mp3",
-    "autoplay": false
+    "autoplay": false,
+    "active": true
   },
   "footer": {
-    "thanks": "¡Viva México! Gracias por celebrar con nosotros"
+    "thanks": "¡Viva México! Gracias por celebrar con nosotros",
+    "active": true
   },
-  "theme": { 
+  "theme": {
     "fonts": {
       "display": "\"Playfair Display\", \"Cormorant Garamond\", Georgia, serif",
       "body": "\"Inter\", \"Helvetica Neue\", Arial, sans-serif",
       "script": "\"Great Vibes\", \"Allura\", cursive"
     }
-  } 
+  }
 }

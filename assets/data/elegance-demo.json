@@ -15,6 +15,7 @@
     "imageBg": "assets/images/elegance-hero-bg.jpg"
   },
   "date": {
+    "active": true,
     "iso": "2026-09-12T20:00:00",
     "display": "Sábado, 12 de septiembre de 2026",
     "short": "12 · 09 · 2026",
@@ -25,7 +26,11 @@
   },
   "frase": {
     "text": "Hay momentos en la vida que se convierten en recuerdos para siempre. Hoy quiero compartir uno de los más especiales contigo.",
-    "author": ""
+    "author": "",
+    "active": true
+  },
+  "historiaSection": {
+    "active": true
   },
   "historia": [
     {
@@ -53,24 +58,31 @@
       "image": "assets/images/elegance-historia-4.jpg"
     }
   ],
+  "galeriaSection": {
+    "active": true
+  },
   "galeria": [
     {
       "src": "assets/images/elegance-galeria-1.jpg",
       "alt": "Momento 1",
-      "wide": true
+      "wide": true,
+      "active": true
     },
     {
       "src": "assets/images/elegance-galeria-2.jpg",
       "alt": "Momento 2",
-      "wide": false
+      "wide": false,
+      "active": true
     },
     {
       "src": "assets/images/elegance-galeria-3.jpg",
       "alt": "Momento 3",
-      "wide": false
+      "wide": false,
+      "active": true
     }
   ],
   "ceremonia": {
+    "active": true,
     "type": "Misa de Acción de Gracias",
     "date": "12 de septiembre de 2026",
     "time": "18:00 hrs",
@@ -79,11 +91,15 @@
     "mapUrl": "https://maps.google.com"
   },
   "recepcion": {
+    "active": true,
     "type": "Recepción",
     "time": "20:00 hrs",
     "place": "Salón / Venue de la recepción",
     "address": "Dirección completa del lugar",
     "mapUrl": "https://maps.google.com"
+  },
+  "itinerarioSection": {
+    "active": true
   },
   "itinerario": [
     {
@@ -113,27 +129,38 @@
     }
   ],
   "dressCode": {
+    "active": true,
     "value": "Formal",
     "note": "Quiero compartir esta noche tan especial contigo. Elige tu mejor look y acompáñame a celebrar mis XV años.",
     "image-background": "assets/images/elegance-historia-4.jpg"
   },
   "regalos": {
+    "active": true,
     "title": "Un detalle para mí",
-    "intro": "Tu presencia es el mejor regalo que puedo recibir. Si deseas tener un detalle conmigo, será recibido con mucho cariño.",
-    "buttonText": "Lluvia e sobres",
-    "url": "#"
+    "intro": "Tu presencia es nuestro mejor regalo. Si deseas hacernos un obsequio, puedes hacerlo mediante transferencia bancaria.",
+    "buttonText": "Mesa de regalos",
+    "url": "#",
+    "transferencia": {
+      "titulo": "Regalar por Transferencia",
+      "banco": "BBVA México",
+      "nombre": "Karla & Christian",
+      "clabe": "012180015555555555"
+    }
   },
   "rsvp": {
+    "active": true,
     "question": "¿Me acompañas a celebrar?",
     "buttonText": "Confirmar asistencia",
     "whatsapp": "5210000000000",
     "message": "Hola, confirmo mi asistencia a los XV años de Briseida Berenice"
   },
   "music": {
+    "active": true,
     "src": "assets/music/song.mp3",
     "autoplay": false
   },
   "footer": {
+    "active": true,
     "thanks": "Gracias por acompañarme en este día tan especial"
   },
   "theme": {
