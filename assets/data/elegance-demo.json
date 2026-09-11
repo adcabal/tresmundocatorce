@@ -5,7 +5,8 @@
     "theme": "Guindo/Vino",
     "isPrototype": true,
     "efecto": "corazones",
-    "doorImage": "assets/images/door_xv-2.png"
+    "doorImage": "assets/images/door_xv-2.png",
+    "incluyeFrame": true
   },
   "couple": {
     "bride": "Briseida Berenice",

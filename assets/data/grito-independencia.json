@@ -4,7 +4,8 @@
     "lang": "es",
     "theme": "tricolor-patrio",
     "isPrototype": true,
-    "efecto": "banderillas"
+    "efecto": "banderillas",
+    "incluyeFrame": false
   },
   "couple": {
     "bride": "¡Viva",

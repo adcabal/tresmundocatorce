@@ -1,0 +1,178 @@
+{
+  "meta": {
+    "slug": "luxury",
+    "lang": "es",
+    "theme": "Azul-celeste",
+    "isPrototype": true,
+    "efecto": "lluvia",
+    "genero": "nino",
+    "incluyeFrame": true
+  },
+  "couple": {
+    "bride": "Lucca",
+    "groom": "",
+    "monogram": "✝",
+    "label": "Bautizo",
+    "genero": "nino",
+    "imageBg": "assets/images/bautizo-hero.jpg",
+    "active": true
+  },
+  "date": {
+    "iso": "2027-06-16T13:00:00",
+    "display": "Domingo, 16 de junio 2027",
+    "short": "16 - 06 - 2027",
+    "day": "16",
+    "month": "junio",
+    "year": "2027",
+    "active": true
+  },
+  "frase": {
+    "text": "Un angelito llegó a iluminar nuestras vidas con su ternura y alegría. Queremos compartir este momento tan especial con quienes más amamos.",
+    "author": "Mis Papás: Mayra Córdova y Alfredo Bravo | Mis Padrinos: Dolores Robledo y Alejandro Córdova",
+    "active": true
+  },
+  "historiaSection": {
+    "active": true
+  },
+  "historia": [
+    {
+      "title": "Nuestra llegada",
+      "text": "El día que llegaste a este mundo todo cambió para siempre. Tu sonrisa, tus manitas y tu mirada llena de ternura han llenado nuestro hogar de una alegría que nunca imaginamos.",
+      "image": null
+    },
+    {
+      "title": "Primeros momentos",
+      "text": "Cada día contigo es un regalo. Ver cómo creces, cómo descubres el mundo y cómo nos regalas esa sonrisa que nos derrite el corazón.",
+      "image": null
+    },
+    {
+      "title": "Un nuevo capítulo",
+      "text": "Hoy queremos celebrar tu bautizo rodeados de familia y amigos, marcando el inicio de un camino lleno de bendiciones, amor y felicidad.",
+      "image": null
+    }
+  ],
+  "galeriaSection": {
+    "active": true
+  },
+  "galeria": [
+    {
+      "src": "assets/images/galeria-1.jpg",
+      "alt": "Lucca 1",
+      "wide": true
+    },
+    {
+      "src": "assets/images/galeria-2.jpg",
+      "alt": "Lucca 2",
+      "wide": false
+    },
+    {
+      "src": "assets/images/galeria-3.jpg",
+      "alt": "Lucca 3",
+      "wide": false
+    },
+    {
+      "src": "assets/images/galeria-4.jpg",
+      "alt": "Lucca 4",
+      "wide": true
+    },
+    {
+      "src": "assets/images/galeria-5.jpg",
+      "alt": "Lucca 5",
+      "wide": false
+    },
+    {
+      "src": "assets/images/galeria-6.jpg",
+      "alt": "Lucca 6",
+      "wide": false
+    }
+  ],
+  "ceremonia": {
+    "type": "Ceremonia de Bautizo",
+    "date": "10 de mayo de 2027",
+    "time": "12:00 hrs",
+    "place": "Parroquia / Iglesia",
+    "address": "Direccion completa de la parroquia",
+    "mapUrl": "https://maps.google.com",
+    "active": true
+  },
+  "recepcion": {
+    "type": "Festejo",
+    "time": "14:00 hrs",
+    "place": "Jardin / Salon del festejo",
+    "address": "Direccion completa del salon",
+    "mapUrl": "https://maps.google.com",
+    "active": true
+  },
+  "itinerarioSection": {
+    "active": true
+  },
+  "itinerario": [
+    {
+      "hora": "12:00",
+      "titulo": "Bautizo",
+      "descripcion": "Ceremonia religiosa"
+    },
+    {
+      "hora": "14:00",
+      "titulo": "Festejo",
+      "descripcion": "Recepcion y bienvenida"
+    },
+    {
+      "hora": "15:00",
+      "titulo": "Comida",
+      "descripcion": "Banquete familiar"
+    },
+    {
+      "hora": "16:30",
+      "titulo": "Pastel",
+      "descripcion": "Corte de pastel y brindis"
+    },
+    {
+      "hora": "17:00",
+      "titulo": "Convivencia",
+      "descripcion": "Musica, fotos y recuerdos!"
+    }
+  ],
+  "dressCode": {
+    "value": "Casual Elegante",
+    "note": "Queremos que te sientas comodo/a y guapo/a. Te pedimos evitar el color blanco para que nuestra pequena sea la protagonista del dia.",
+    "active": true
+  },
+  "regalos": {
+    "title": "Un detalle para Sofia",
+    "intro": "Tu presencia es el mejor regalo. Si deseas hacerle un obsequio a Sofia, aqui tienes algunas opciones.",
+    "buttonText": "Ver mesa de regalos",
+    "url": "#",
+    "active": true,
+    "transferencia": {
+      "titulo": "Regalar por Transferencia",
+      "banco": "BBVA Mexico",
+      "nombre": "Papas de Sofia",
+      "clabe": "012180015555555555",
+      "active": true
+    }
+  },
+  "rsvp": {
+    "question": "Nos acompanas a celebrar a Sofia?",
+    "buttonText": "Confirmar asistencia",
+    "whatsapp": "5210000000000",
+    "message": "Hola, confirmo mi asistencia al bautizo de Sofia",
+    "active": true
+  },
+  "music": {
+    "src": "https://www.youtube.com/shorts/hh1W5rJn4LI",
+    "autoplay": false,
+    "active": true
+  },
+  "footer": {
+    "thanks": "Gracias por celebrar este momento tan especial con nosotros",
+    "active": true
+  },
+  "theme": {
+    "fonts": {
+      "display": "Playfair Display, Cormorant Garamond, Georgia, serif",
+      "body": "Inter, Helvetica Neue, Arial, sans-serif",
+      "script": "Great Vibes, Allura, cursive"
+    }
+  }
+}

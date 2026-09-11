@@ -6,7 +6,8 @@
     "isPrototype": true,
     "efecto": "nubes",
     "video": "assets/video/luxury-vip-black.mp4",
-    "videoLocal": "https://firebasestorage.googleapis.com/v0/b/adainvite-app.firebasestorage.app/o/assets%2Ffondo.mp4?alt=media&token=62a19595-7b73-479a-82c6-86617e3e1af7"
+    "videoLocal": "https://firebasestorage.googleapis.com/v0/b/adainvite-app.firebasestorage.app/o/assets%2Ffondo.mp4?alt=media&token=62a19595-7b73-479a-82c6-86617e3e1af7",
+    "incluyeFrame": true
   },
   "couple": {
     "bride": "Karla",

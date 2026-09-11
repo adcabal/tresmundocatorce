@@ -4,7 +4,8 @@
     "lang": "es",
     "theme": "Verde-limon",
     "isPrototype": true,
-    "efecto": "calaveras"
+    "efecto": "calaveras",
+    "incluyeFrame": true
   },
   "couple": {
     "bride": "Adán",

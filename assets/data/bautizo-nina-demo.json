@@ -1,0 +1,178 @@
+{
+  "meta": {
+    "slug": "luxury",
+    "lang": "es",
+    "theme": "Guindo/Vino",
+    "isPrototype": true,
+    "efecto": "flores",
+    "genero": "nina",
+    "incluyeFrame": false
+  },
+  "couple": {
+    "bride": "Nathalie",
+    "groom": "",
+    "monogram": "✝",
+    "label": "Mi Bautizo",
+    "genero": "nina",
+    "imageBg": "assets/images/bautizo-nina-hero.jpg",
+    "active": true
+  },
+  "date": {
+    "iso": "2027-02-19T14:00:00",
+    "display": "Sábado, 19 de febrero 2027",
+    "short": "19 - 02 - 2027",
+    "day": "19",
+    "month": "febrero",
+    "year": "2027",
+    "active": true
+  },
+  "frase": {
+    "text": "Una florcita llegó a iluminar nuestras vidas con su ternura, su amor y su magia. Hoy la presentamos con inmensa alegría ante Dios.",
+    "author": "Mis Papás: Barbara Gil y Manuel Medina | Mis Padrinos: Ana López y Juan Medina",
+    "active": true
+  },
+  "historiaSection": {
+    "active": true
+  },
+  "historia": [
+    {
+      "title": "Nuestra llegada",
+      "text": "El día que llegaste a este mundo todo cambió para siempre. Tu sonrisa, tus manitas y tu mirada llena de ternura han llenado nuestro hogar de un amor infinito.",
+      "image": null
+    },
+    {
+      "title": "Primeros momentos",
+      "text": "Cada día contigo es un regalo del cielo. Verte crecer y regalarnos esa sonrisa que nos derrite el corazón es nuestra mayor felicidad.",
+      "image": null
+    },
+    {
+      "title": "Un nuevo capítulo",
+      "text": "Hoy queremos celebrar tu bautizo rodeados de familia y amigos, marcando el inicio de un camino bendecido, lleno de amor y luz divina.",
+      "image": null
+    }
+  ],
+  "galeriaSection": {
+    "active": true
+  },
+  "galeria": [
+    {
+      "src": null,
+      "alt": "Nathalie 1",
+      "wide": true
+    },
+    {
+      "src": null,
+      "alt": "Nathalie 2",
+      "wide": false
+    },
+    {
+      "src": null,
+      "alt": "Nathalie 3",
+      "wide": false
+    },
+    {
+      "src": null,
+      "alt": "Nathalie 4",
+      "wide": true
+    },
+    {
+      "src": null,
+      "alt": "Nathalie 5",
+      "wide": false
+    },
+    {
+      "src": null,
+      "alt": "Nathalie 6",
+      "wide": false
+    }
+  ],
+  "ceremonia": {
+    "type": "Ceremonia Religiosa",
+    "date": "Sábado 19 de febrero de 2027",
+    "time": "2:00 PM",
+    "place": "Iglesia del Gran Poder",
+    "address": "Independencia no. 2763",
+    "mapUrl": "https://maps.google.com",
+    "active": true
+  },
+  "recepcion": {
+    "type": "Recepción",
+    "time": "5:00 PM",
+    "place": "Terraza \"Estella Lunar\"",
+    "address": "López de Legazpi no. 876",
+    "mapUrl": "https://maps.google.com",
+    "active": true
+  },
+  "itinerarioSection": {
+    "active": true
+  },
+  "itinerario": [
+    {
+      "hora": "14:00",
+      "titulo": "Misa de Bautizo",
+      "descripcion": "Iglesia del Gran Poder"
+    },
+    {
+      "hora": "17:00",
+      "titulo": "Recepción",
+      "descripcion": "Terraza Estella Lunar"
+    },
+    {
+      "hora": "18:00",
+      "titulo": "Banquete",
+      "descripcion": "Comida y brindis familiar"
+    },
+    {
+      "hora": "19:30",
+      "titulo": "Pastel",
+      "descripcion": "Corte de pastel y fotos"
+    },
+    {
+      "hora": "20:30",
+      "titulo": "Convivencia",
+      "descripcion": "Música y recuerdos especiales"
+    }
+  ],
+  "dressCode": {
+    "value": "Elegante Floral",
+    "note": "Queremos que te sientas cómoda/o. Te pedimos evitar el color blanco para que nuestra pequeña sea la protagonista del día.",
+    "active": true
+  },
+  "regalos": {
+    "title": "Un detalle para Nathalie",
+    "intro": "Tu presencia es nuestro mayor regalo. Si deseas hacerle un obsequio a Nathalie, aquí tienes algunas opciones.",
+    "buttonText": "Ver mesa de regalos",
+    "url": "#",
+    "active": true,
+    "transferencia": {
+      "titulo": "Regalar por Transferencia",
+      "banco": "BBVA México",
+      "nombre": "Papás de Nathalie",
+      "clabe": "012180015555555555",
+      "active": true
+    }
+  },
+  "rsvp": {
+    "question": "¿Nos acompañas a celebrar a Nathalie?",
+    "buttonText": "Confirmar asistencia",
+    "whatsapp": "5218121586492",
+    "message": "Hola, confirmo mi asistencia al bautizo de Nathalie",
+    "active": true
+  },
+  "music": {
+    "src": "https://www.youtube.com/watch?v=G3c0rW6s78w",
+    "autoplay": false,
+    "active": true
+  },
+  "footer": {
+    "thanks": "Gracias por acompañarnos y bendecir la vida de Nathalie",
+    "active": true
+  },
+  "theme": {
+    "fonts": {
+      "display": "Playfair Display, Cormorant Garamond, Georgia, serif",
+      "body": "Inter, Helvetica Neue, Arial, sans-serif",
+      "script": "Great Vibes, Allura, cursive"
+    }
+  }
+}

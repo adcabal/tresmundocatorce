@@ -5,7 +5,8 @@
     "theme": "rock",
     "isPrototype": true,
     "fondo-app": "assets/images/rock-fondo-app.jpg",
-    "efecto": "estrellas"
+    "efecto": "estrellas",
+    "incluyeFrame": true
   },
   "couple": {
     "bride": "Adán",
