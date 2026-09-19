@@ -1,6 +1,6 @@
 {
   "meta": {
-    "slug": "FiestaPatria",
+    "slug": "fiestapatria",
     "lang": "es",
     "theme": "tricolor-patrio",
     "isPrototype": true,
@@ -150,6 +150,8 @@
     "message": "Hola, confirmo mi asistencia a la fiesta del Grito de Independencia",
     "active": true
   },
+  "IncluirConfirmacion": false,
+  "IncluirListaInvitados": false,
   "music": {
     "src": "assets/music/song-grito-independencia.mp3",
     "autoplay": false,

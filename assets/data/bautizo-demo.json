@@ -1,6 +1,6 @@
 {
   "meta": {
-    "slug": "luxury",
+    "slug": "bautizo",
     "lang": "es",
     "theme": "Azul-celeste",
     "isPrototype": true,
@@ -159,6 +159,8 @@
     "message": "Hola, confirmo mi asistencia al bautizo de Sofia",
     "active": true
   },
+  "IncluirConfirmacion": false,
+  "IncluirListaInvitados": false,
   "music": {
     "src": "https://www.youtube.com/shorts/hh1W5rJn4LI",
     "autoplay": false,

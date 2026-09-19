@@ -155,6 +155,8 @@
     "whatsapp": "5210000000000",
     "message": "Hola, confirmo mi asistencia a los XV años de Briseida Berenice"
   },
+  "IncluirConfirmacion": false,
+  "IncluirListaInvitados": false,
   "music": {
     "active": true,
     "src": "assets/music/song.mp3",

@@ -150,6 +150,8 @@
     "message": "Hola, confirmo mi asistencia a la boda de Marina & Joel",
     "active": true
   },
+  "IncluirConfirmacion": false,
+  "IncluirListaInvitados": false,
   "music": {
     "src": "assets/music/song.mp3",
     "autoplay": false,

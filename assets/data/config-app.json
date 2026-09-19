@@ -1,4 +1,13 @@
 {
+  "contact": {
+    "whatsapp": "8121586492",
+    "whatsappDisplay": "81 2158 6492"
+  },
+  "updates": {
+    "enabled": true,
+    "maxUpdates": 3,
+    "price": 50
+  },
   "designs": [
     {
       "slug": "luxury",
@@ -10,6 +19,7 @@
       "incluyeVideo": false,
       "incluyeFrame": true,
       "vip": false,
+      "price": 499,
       "image": "assets/images/hero-bg.jpg"
     },
     {
@@ -22,6 +32,7 @@
       "incluyeVideo": false,
       "incluyeFrame": false,
       "vip": false,
+      "price": 449,
       "image": "assets/images/grito-hero.jpg"
     },
     {
@@ -34,18 +45,20 @@
       "incluyeVideo": false,
       "incluyeFrame": true,
       "vip": false,
+      "price": 549,
       "image": "assets/images/elegance-hero-bg.jpg"
     },
     {
-      "slug": "luxury",
+      "slug": "rock",
       "name": "Rock",
       "description": "Diseño elegante y sofisticado",
-      "previewFile": "luxury-rock",
+      "previewFile": "rock-demo",
       "active": true,
       "color": "#930e1d",
       "incluyeVideo": false,
       "incluyeFrame": true,
       "vip": false,
+      "price": 499,
       "image": "assets/images/rock-hero.jpg"
     },
     {
@@ -58,10 +71,11 @@
       "incluyeVideo": true,
       "incluyeFrame": true,
       "vip": true,
+      "price": 799,
       "image": "assets/images/historia-3.jpg"
     },
     {
-      "slug": "luxury",
+      "slug": "bautizo",
       "name": "Bautizo Niño",
       "description": "Diseño celestial y tierno en tonos celestes y dorados",
       "previewFile": "bautizo-demo",
@@ -70,10 +84,11 @@
       "incluyeVideo": false,
       "incluyeFrame": true,
       "vip": false,
+      "price": 499,
       "image": "assets/images/bautizo-hero.jpg"
     },
     {
-      "slug": "luxury",
+      "slug": "bautizo-nina",
       "name": "Bautizo Niña",
       "description": "Diseño floral elegante con toques rosas, violeta y dorado",
       "previewFile": "bautizo-nina-demo",
@@ -82,7 +97,34 @@
       "incluyeVideo": false,
       "incluyeFrame": false,
       "vip": false,
+      "price": 499,
       "image": "assets/images/bautizo-nina-hero.jpg"
+    },
+    {
+      "slug": "elegance",
+      "name": "Spiderman",
+      "description": "Diseño para niños invitacion spiderman",
+      "previewFile": "elegance-adancito-31320",
+      "active": true,
+      "color": "#be185d",
+      "incluyeVideo": true,
+      "incluyeFrame": false,
+      "vip": false,
+      "price": 399,
+      "image": "/api/media/elegance-adancito-31320/puerta.webp"
+    },
+    {
+      "slug": "luxury-slim",
+      "name": "Luxury Slim",
+      "description": "Diseño elegante minimalista versión slim",
+      "previewFile": "luxury-slim-demo",
+      "active": true,
+      "color": "#C45306",
+      "incluyeVideo": false,
+      "incluyeFrame": true,
+      "vip": false,
+      "price": 499,
+      "image": "assets/images/hero-bg.jpg"
     }
   ],
   "themes": [
@@ -123,6 +165,50 @@
         "muted": "#748c58",
         "accent": "#bef264",
         "border": "rgba(101, 163, 13, 0.20)"
+      },
+      "fonts": {
+        "display": "\"Playfair Display\", \"Cormorant Garamond\", Georgia, serif",
+        "body": "\"Inter\", \"Helvetica Neue\", Arial, sans-serif",
+        "script": "\"Great Vibes\", \"Allura\", cursive"
+      }
+    },
+    {
+      "slug": "terracota",
+      "name": "Terracota",
+      "active": true,
+      "previewFile": "luxury-demo",
+      "colors": {
+        "primary": "#b85c38",
+        "primaryDark": "#7a3a22",
+        "primaryLight": "#cc744b",
+        "primary50": "#fbf6f2",
+        "primary100": "#f5e7dd",
+        "primary200": "#e9cab6",
+        "primary300": "#dba98c",
+        "primary400": "#cd8a64",
+        "primary500": "#cc744b",
+        "primary600": "#b85c38",
+        "primary700": "#96482c",
+        "primary800": "#7a3a22",
+        "primary900": "#62311d",
+        "secondary": "#cd8a64",
+        "secondary50": "#fbf6f2",
+        "secondary100": "#f5e7dd",
+        "secondary200": "#e9cab6",
+        "secondary300": "#dba98c",
+        "secondary400": "#cd8a64",
+        "secondary500": "#cc744b",
+        "secondary600": "#b85c38",
+        "secondary700": "#96482c",
+        "secondary800": "#7a3a22",
+        "secondary900": "#62311d",
+        "background": "#faf6f2",
+        "surface": "#ffffff",
+        "text": "#3a2417",
+        "textLight": "#6d4f3a",
+        "muted": "#a5836e",
+        "accent": "#dba98c",
+        "border": "rgba(184, 92, 56, 0.20)"
       },
       "fonts": {
         "display": "\"Playfair Display\", \"Cormorant Garamond\", Georgia, serif",
