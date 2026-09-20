@@ -30,58 +30,62 @@
     "author": "",
     "active": true
   },
-  "historiaSection": {
-    "active": true
+  "historia": {
+    "active": true,
+    "items": [
+      {
+        "year": "2011",
+        "title": "El comienzo de mi historia",
+        "text": "Un día lleno de amor llegó al mundo una niña que con su alegría comenzó a llenar de momentos especiales la vida de quienes la rodean.",
+        "image": "assets/images/elegance-historia-1.jpg",
+        "active": true
+      },
+      {
+        "year": "2016",
+        "title": "Creciendo y soñando",
+        "text": "Entre sonrisas, aventuras y sueños, fui creciendo rodeada del amor de mi familia y de personas muy especiales.",
+        "image": "assets/images/elegance-historia-2.jpg",
+        "active": true
+      },
+      {
+        "year": "2021",
+        "title": "Nuevos sueños",
+        "text": "Cada etapa ha dejado recuerdos inolvidables y me ha acercado a la persona que hoy estoy descubriendo ser.",
+        "image": "assets/images/elegance-historia-3.jpg",
+        "active": true
+      },
+      {
+        "year": "2026",
+        "title": "Mis XV años",
+        "text": "Hoy comienza una nueva etapa de mi vida y quiero celebrarla rodeada de las personas que más quiero.",
+        "image": "assets/images/elegance-historia-4.jpg",
+        "active": true
+      }
+    ]
   },
-  "historia": [
-    {
-      "year": "2011",
-      "title": "El comienzo de mi historia",
-      "text": "Un día lleno de amor llegó al mundo una niña que con su alegría comenzó a llenar de momentos especiales la vida de quienes la rodean.",
-      "image": "assets/images/elegance-historia-1.jpg"
-    },
-    {
-      "year": "2016",
-      "title": "Creciendo y soñando",
-      "text": "Entre sonrisas, aventuras y sueños, fui creciendo rodeada del amor de mi familia y de personas muy especiales.",
-      "image": "assets/images/elegance-historia-2.jpg"
-    },
-    {
-      "year": "2021",
-      "title": "Nuevos sueños",
-      "text": "Cada etapa ha dejado recuerdos inolvidables y me ha acercado a la persona que hoy estoy descubriendo ser.",
-      "image": "assets/images/elegance-historia-3.jpg"
-    },
-    {
-      "year": "2026",
-      "title": "Mis XV años",
-      "text": "Hoy comienza una nueva etapa de mi vida y quiero celebrarla rodeada de las personas que más quiero.",
-      "image": "assets/images/elegance-historia-4.jpg"
-    }
-  ],
-  "galeriaSection": {
-    "active": true
+  "galeria": {
+    "active": true,
+    "items": [
+      {
+        "src": "assets/images/elegance-galeria-1.jpg",
+        "alt": "Momento 1",
+        "wide": true,
+        "active": true
+      },
+      {
+        "src": "assets/images/elegance-galeria-2.jpg",
+        "alt": "Momento 2",
+        "wide": false,
+        "active": true
+      },
+      {
+        "src": "assets/images/elegance-galeria-3.jpg",
+        "alt": "Momento 3",
+        "wide": false,
+        "active": true
+      }
+    ]
   },
-  "galeria": [
-    {
-      "src": "assets/images/elegance-galeria-1.jpg",
-      "alt": "Momento 1",
-      "wide": true,
-      "active": true
-    },
-    {
-      "src": "assets/images/elegance-galeria-2.jpg",
-      "alt": "Momento 2",
-      "wide": false,
-      "active": true
-    },
-    {
-      "src": "assets/images/elegance-galeria-3.jpg",
-      "alt": "Momento 3",
-      "wide": false,
-      "active": true
-    }
-  ],
   "ceremonia": {
     "active": true,
     "type": "Misa de Acción de Gracias",
@@ -99,36 +103,41 @@
     "address": "Dirección completa del lugar",
     "mapUrl": "https://maps.google.com"
   },
-  "itinerarioSection": {
-    "active": true
+  "itinerario": {
+    "active": true,
+    "items": [
+      {
+        "hora": "18:00",
+        "titulo": "Misa",
+        "descripcion": "Ceremonia de Acción de Gracias",
+        "active": true
+      },
+      {
+        "hora": "20:00",
+        "titulo": "Recepción",
+        "descripcion": "Cóctel de bienvenida",
+        "active": true
+      },
+      {
+        "hora": "21:00",
+        "titulo": "Cena",
+        "descripcion": "Cena y convivencia",
+        "active": true
+      },
+      {
+        "hora": "22:00",
+        "titulo": "Vals",
+        "descripcion": "Baile especial de XV años",
+        "active": true
+      },
+      {
+        "hora": "22:30",
+        "titulo": "Baile",
+        "descripcion": "¡A celebrar y disfrutar!",
+        "active": true
+      }
+    ]
   },
-  "itinerario": [
-    {
-      "hora": "18:00",
-      "titulo": "Misa",
-      "descripcion": "Ceremonia de Acción de Gracias"
-    },
-    {
-      "hora": "20:00",
-      "titulo": "Recepción",
-      "descripcion": "Cóctel de bienvenida"
-    },
-    {
-      "hora": "21:00",
-      "titulo": "Cena",
-      "descripcion": "Cena y convivencia"
-    },
-    {
-      "hora": "22:00",
-      "titulo": "Vals",
-      "descripcion": "Baile especial de XV años"
-    },
-    {
-      "hora": "22:30",
-      "titulo": "Baile",
-      "descripcion": "¡A celebrar y disfrutar!"
-    }
-  ],
   "dressCode": {
     "active": true,
     "value": "Formal",

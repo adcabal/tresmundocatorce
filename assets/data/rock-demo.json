@@ -30,55 +30,70 @@
     "author": "Antoine de Saint-Exupéry",
     "active": true
   },
-  "historia": [
-    {
-      "title": "El comienzo",
-      "text": "Todo empezó con una mirada, una conversación que se alargó y la certeza de que habíamos encontrado a la persona con quien queríamos escribir el resto de la historia.",
-      "image": "assets/images/rock-historia-1.jpg"
-    },
-    {
-      "title": "Creciendo juntos",
-      "text": "Viajes, risas, proyectos compartidos y el descubrimiento diario de que el amor se construye en los detalles cotidianos.",
-      "image": "assets/images/rock-historia-2.jpg"
-    },
-    {
-      "title": "El sí",
-      "text": "Y llegó el momento de dar el siguiente paso. Hoy queremos celebrar este amor rodeados de las personas que más queremos.",
-      "image": "assets/images/rock-historia-3.jpg"
-    }
-  ],
-  "galeria": [
-    {
-      "src": "assets/images/rock-galeria-1.jpg",
-      "alt": "Adan & Perla 1",
-      "wide": true
-    },
-    {
-      "src": "assets/images/rock-galeria-2.jpg",
-      "alt": "Adan & Perla 2",
-      "wide": false
-    },
-    {
-      "src": "assets/images/rock-galeria-3.jpg",
-      "alt": "Adan & Perla 3",
-      "wide": false
-    },
-    {
-      "src": "assets/images/rock-galeria-4.jpg",
-      "alt": "Adan & Perla 4",
-      "wide": true
-    },
-    {
-      "src": "assets/images/rock-galeria-5.jpg",
-      "alt": "Adan & Perla 5",
-      "wide": false
-    },
-    {
-      "src": "assets/images/rock-galeria-6.jpg",
-      "alt": "Adan & Perla 6",
-      "wide": false
-    }
-  ],
+  "historia": {
+    "active": true,
+    "items": [
+      {
+        "title": "El comienzo",
+        "text": "Todo empezó con una mirada, una conversación que se alargó y la certeza de que habíamos encontrado a la persona con quien queríamos escribir el resto de la historia.",
+        "image": "assets/images/rock-historia-1.jpg",
+        "active": true
+      },
+      {
+        "title": "Creciendo juntos",
+        "text": "Viajes, risas, proyectos compartidos y el descubrimiento diario de que el amor se construye en los detalles cotidianos.",
+        "image": "assets/images/rock-historia-2.jpg",
+        "active": true
+      },
+      {
+        "title": "El sí",
+        "text": "Y llegó el momento de dar el siguiente paso. Hoy queremos celebrar este amor rodeados de las personas que más queremos.",
+        "image": "assets/images/rock-historia-3.jpg",
+        "active": true
+      }
+    ]
+  },
+  "galeria": {
+    "active": true,
+    "items": [
+      {
+        "src": "assets/images/rock-galeria-1.jpg",
+        "alt": "Adan & Perla 1",
+        "wide": true,
+        "active": true
+      },
+      {
+        "src": "assets/images/rock-galeria-2.jpg",
+        "alt": "Adan & Perla 2",
+        "wide": false,
+        "active": true
+      },
+      {
+        "src": "assets/images/rock-galeria-3.jpg",
+        "alt": "Adan & Perla 3",
+        "wide": false,
+        "active": true
+      },
+      {
+        "src": "assets/images/rock-galeria-4.jpg",
+        "alt": "Adan & Perla 4",
+        "wide": true,
+        "active": true
+      },
+      {
+        "src": "assets/images/rock-galeria-5.jpg",
+        "alt": "Adan & Perla 5",
+        "wide": false,
+        "active": true
+      },
+      {
+        "src": "assets/images/rock-galeria-6.jpg",
+        "alt": "Adan & Perla 6",
+        "wide": false,
+        "active": true
+      }
+    ]
+  },
   "ceremonia": {
     "type": "Ceremonia",
     "date": "17 de abril de 2027",
@@ -96,33 +111,41 @@
     "mapUrl": "https://www.google.com/maps/dir/?api=1&destination=Salon+de+Eventos+Jardines+del+Bosque",
     "active": true
   },
-  "itinerario": [
-    {
-      "hora": "18:00",
-      "titulo": "Ceremonia",
-      "descripcion": "Intercambio de votos"
-    },
-    {
-      "hora": "20:00",
-      "titulo": "Recepción",
-      "descripcion": "Cóctel de bienvenida"
-    },
-    {
-      "hora": "21:00",
-      "titulo": "Cena",
-      "descripcion": "Banquete"
-    },
-    {
-      "hora": "22:30",
-      "titulo": "Baile",
-      "descripcion": "Apertura de pista"
-    },
-    {
-      "hora": "00:00",
-      "titulo": "Celebración",
-      "descripcion": "Fiesta hasta el amanecer"
-    }
-  ],
+  "itinerario": {
+    "active": true,
+    "items": [
+      {
+        "hora": "18:00",
+        "titulo": "Ceremonia",
+        "descripcion": "Intercambio de votos",
+        "active": true
+      },
+      {
+        "hora": "20:00",
+        "titulo": "Recepción",
+        "descripcion": "Cóctel de bienvenida",
+        "active": true
+      },
+      {
+        "hora": "21:00",
+        "titulo": "Cena",
+        "descripcion": "Banquete",
+        "active": true
+      },
+      {
+        "hora": "22:30",
+        "titulo": "Baile",
+        "descripcion": "Apertura de pista",
+        "active": true
+      },
+      {
+        "hora": "00:00",
+        "titulo": "Celebración",
+        "descripcion": "Fiesta hasta el amanecer",
+        "active": true
+      }
+    ]
+  },
   "dressCode": {
     "value": "Formal",
     "note": "Nos encantará verte celebrar con nosotros. Elige tu mejor look para acompañarnos en este día tan especial.",
@@ -158,14 +181,5 @@
       "body": "\"Inter\", \"Helvetica Neue\", Arial, sans-serif",
       "script": "\"Great Vibes\", \"Allura\", cursive"
     }
-  },
-  "itinerarioSection": {
-    "active": true
-  },
-  "galeriaSection": {
-    "active": true
-  },
-  "historiaSection": {
-    "active": true
   }
 }
