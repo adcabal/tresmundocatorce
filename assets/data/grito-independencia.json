@@ -12,7 +12,7 @@
     "groom": "México!",
     "monogram": "15·S",
     "label": "Grito de Independencia",
-    "imageBg": "assets/images/grito-hero.jpg",
+    "imageBg": "assets/images/grito-independencia/grito-hero.jpg",
     "active": true
   },
   "date": {
@@ -35,19 +35,19 @@
       {
         "title": "El origen",
         "text": "En la madrugada del 16 de septiembre de 1810, el cura Miguel Hidalgo hizo sonar la campana de Dolores e inició el movimiento que daría libertad a nuestra nación.",
-        "image": "assets/images/grito-historia-1.jpg",
+        "image": "assets/images/grito-independencia/grito-historia-1.jpg",
         "active": true
       },
       {
         "title": "La fiesta",
         "text": "Cada año, la noche del 15 de septiembre, mexicanos de todo el país se reúnen para celebrar con música, comida, colores y el grito que une a nuestra patria.",
-        "image": "assets/images/grito-historia-2.jpg",
+        "image": "assets/images/grito-independencia/grito-historia-2.jpg",
         "active": true
       },
       {
         "title": "Nuestra noche",
         "text": "Este año queremos vivir esa tradición juntos: buena compañía, platillos típicos, mariachi y el grito a todo pulmón. ¡Te esperamos!",
-        "image": "assets/images/grito-historia-3.jpg",
+        "image": "assets/images/grito-independencia/grito-historia-3.jpg",
         "active": true
       }
     ]
@@ -56,37 +56,37 @@
     "active": true,
     "items": [
       {
-        "src": "assets/images/galeria-comida-1.jpg",
+        "src": "assets/images/grito-independencia/galeria-comida-1.jpg",
         "alt": "Tacos al pastor",
         "wide": true,
         "active": true
       },
       {
-        "src": "assets/images/galeria-comida-2.jpg",
+        "src": "assets/images/grito-independencia/galeria-comida-2.jpg",
         "alt": "Enchiladas verdes",
         "wide": false,
         "active": true
       },
       {
-        "src": "assets/images/galeria-comida-3.jpg",
+        "src": "assets/images/grito-independencia/galeria-comida-3.jpg",
         "alt": "Guacamole fresco",
         "wide": false,
         "active": true
       },
       {
-        "src": "assets/images/galeria-comida-4.jpg",
+        "src": "assets/images/grito-independencia/galeria-comida-4.jpg",
         "alt": "Elote mexicano",
         "wide": true,
         "active": true
       },
       {
-        "src": "assets/images/galeria-comida-5.jpg",
+        "src": "assets/images/grito-independencia/galeria-comida-5.jpg",
         "alt": "Chiles en nogada",
         "wide": false,
         "active": true
       },
       {
-        "src": "assets/images/galeria-comida-6.jpg",
+        "src": "assets/images/grito-independencia/galeria-comida-6.jpg",
         "alt": "Mole poblano",
         "wide": false,
         "active": true

@@ -1,0 +1,182 @@
+{
+    "meta": {
+        "slug": "luxury-slim",
+        "lang": "es",
+        "theme": "Durazno",
+        "isPrototype": true,
+        "efecto": "corazones",
+        "incluyeFrame": true,
+        "video_Fake": "assets/video/luxury-slim-video.mp4",
+        "doorImage": "assets/images/luxury-slim-demo/luxury-slim-door3.jpg",
+        "fondo-app": "assets/images/luxury-slim-demo/luxury-slim-door4.jpg"
+    },
+    "couple": {
+        "bride": "Karla Marlene",
+        "groom": "Christopher Jesus",
+        "monogram": "K·C",
+        "label": "Nuestra Boda",
+        "imageBg": "assets/images/luxury-slim-demo/hero-bg.jpg",
+        "active": true
+    },
+    "date": {
+        "iso": "2026-11-15T18:00:00",
+        "display": "Domingo, 15 de noviembre 2026",
+        "short": "17 · 04 · 2027",
+        "day": "15",
+        "month": "noviembre",
+        "year": "2026",
+        "active": true
+    },
+    "frase": {
+        "text": "El amor no consiste en mirarse el uno al otro, sino en mirar juntos en la misma dirección.",
+        "author": "Antoine de Saint-Exupéry",
+        "active": true,
+        "padres": {
+            "active": true,
+            "titulo": "Con especial cariño a nuestros padres",
+            "text": "A nuestros padres, gracias por acompañarnos, guiarnos y enseñarnos el verdadero significado del amor. Este momento también es suyo, porque con su amor y apoyo hemos llegado hasta aquí.",
+            "novio": {
+                "nombre": "Christopher Jesus",
+                "padres": "Maria Andrea Flores Molina & Jesus Lopez Garcia"
+            },
+            "novia": {
+                "nombre": "Karla Marlene",
+                "padres": "Norma Alicia Martinez Martinez & José de Jesus Salazar Martinez"
+            }
+        }
+    },
+    "historia": [
+        {
+            "title": "El comienzo",
+            "text": "Todo empezó con una mirada, una conversación que se alargó y la certeza de que habíamos encontrado a la persona con quien queríamos escribir el resto de la historia.",
+            "image": "assets/images/luxury-slim-demo/historia-1.jpg"
+        },
+        {
+            "title": "Creciendo juntos",
+            "text": "Viajes, risas, proyectos compartidos y el descubrimiento diario de que el amor se construye en los detalles cotidianos.",
+            "image": "assets/images/luxury-slim-demo/historia-2.jpg"
+        },
+        {
+            "title": "El sí",
+            "text": "Y llegó el momento de dar el siguiente paso. Hoy queremos celebrar este amor rodeados de las personas que más queremos.",
+            "image": "assets/images/luxury-slim-demo/historia-3.jpg"
+        }
+    ],
+    "galeria": [
+        {
+            "src": "assets/images/luxury-slim-demo/galeria-1.jpg",
+            "alt": "Karla & Christopher",
+            "wide": true
+        },
+        {
+            "src": "assets/images/luxury-slim-demo/galeria-2.jpg",
+            "alt": "Karla & Christopher",
+            "wide": false
+        },
+        {
+            "src": "assets/images/luxury-slim-demo/galeria-3.jpg",
+            "alt": "Karla & Christopher",
+            "wide": false
+        },
+        {
+            "src": "assets/images/luxury-slim-demo/galeria-4.jpg",
+            "alt": "Karla & Christopher",
+            "wide": true
+        }
+    ],
+    "ceremonia": {
+        "type": "Ceremonia",
+        "date": "15 de noviembre 2026",
+        "time": "19:10 hrs",
+        "place": "Parroquia San Vicente de Paul",
+        "address": "Calle Virgilio C. Guerra #421, La Fama, 66100 Cdad. Santa Catarina, N.L.",
+        "mapUrl": "https://maps.app.goo.gl/5E2VVscru8is1LRVA",
+        "active": true
+    },
+    "recepcion": {
+        "type": "Recepción",
+        "time": "20:00 hrs",
+        "place": "Salón Cascada Ambar",
+        "address": "Esquina con, Tegucigalpa y Maravillas 1400, Calle de las Artes, Zimix,66358 Cdad. Santa Catarina, N.L.",
+        "mapUrl": "https://maps.app.goo.gl/n182M3NMRoFythsd8",
+        "active": true
+    },
+    "itinerario": [
+        {
+            "hora": "19:10",
+            "titulo": "Ceremonia",
+            "descripcion": "Intercambio de votos"
+        },
+        {
+            "hora": "20:00",
+            "titulo": "Recepción",
+            "descripcion": "Cóctel de bienvenida"
+        },
+        {
+            "hora": "21:00",
+            "titulo": "Cena",
+            "descripcion": "Banquete"
+        },
+        {
+            "hora": "22:30",
+            "titulo": "Baile",
+            "descripcion": "Apertura de pista"
+        },
+        {
+            "hora": "00:00",
+            "titulo": "Celebración",
+            "descripcion": "Fiesta hasta el amanecer"
+        }
+    ],
+    "dressCode": {
+        "value": "Formal",
+        "note": "Nos encantará verte celebrar con nosotros. Elige tu mejor look para acompañarnos en este día tan especial.",
+        "active": true
+    },
+    "regalos": {
+        "title": "Mesa de Regalos",
+        "intro": "Tu presencia es nuestro mejor regalo. Si deseas hacernos un obsequio, puedes hacerlo mediante sobre o regalo.",
+        "buttonText": "Mesa de regalos",
+        "url": "#",
+        "active": true,
+        "transferencia": {
+            "titulo": "Regalar por Transferencia",
+            "banco": "BBVA México",
+            "nombre": "Karla & Christopher",
+            "clabe": "012180015555555555",
+            "active": false
+        }
+    },
+    "rsvp": {
+        "question": "¿Nos acompañas?",
+        "buttonText": "Confirmar asistencia",
+        "whatsapp": "5210000000000",
+        "message": "Hola, confirmo mi asistencia a la boda de Karla & Christopher",
+        "active": true
+    },
+    "music": {
+        "src": "assets/music/song.mp3",
+        "autoplay": false,
+        "active": true
+    },
+    "footer": {
+        "thanks": "Gracias por acompañarnos",
+        "active": true
+    },
+    "theme": {
+        "fonts": {
+            "display": "\"Playfair Display\", \"Cormorant Garamond\", Georgia, serif",
+            "body": "\"Inter\", \"Helvetica Neue\", Arial, sans-serif",
+            "script": "\"Great Vibes\", \"Allura\", cursive"
+        }
+    },
+    "itinerarioSection": {
+        "active": true
+    },
+    "galeriaSection": {
+        "active": true
+    },
+    "historiaSection": {
+        "active": true
+    }
+}

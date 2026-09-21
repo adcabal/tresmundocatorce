@@ -20,7 +20,7 @@
       "incluyeFrame": true,
       "vip": false,
       "price": 499,
-      "image": "assets/images/hero-bg.jpg"
+      "image": "assets/images/luxury-demo/hero-bg.jpg"
     },
     {
       "slug": "fiestapatria",
@@ -33,7 +33,7 @@
       "incluyeFrame": false,
       "vip": false,
       "price": 449,
-      "image": "assets/images/grito-hero.jpg"
+      "image": "assets/images/grito-independencia/grito-hero.jpg"
     },
     {
       "slug": "elegance",
@@ -46,7 +46,7 @@
       "incluyeFrame": true,
       "vip": false,
       "price": 549,
-      "image": "assets/images/elegance-hero-bg.jpg"
+      "image": "assets/images/elegance-demo/elegance-hero-bg.jpg"
     },
     {
       "slug": "rock",
@@ -59,7 +59,20 @@
       "incluyeFrame": true,
       "vip": false,
       "price": 499,
-      "image": "assets/images/rock-hero.jpg"
+      "image": "assets/images/rock-demo/rock-hero.jpg"
+    },
+    {
+      "slug": "luxury-slim",
+      "name": "Luxury Slim",
+      "description": "Diseño elegante minimalista versión slim",
+      "previewFile": "luxury-slim-demo",
+      "active": true,
+      "color": "#C45306",
+      "incluyeVideo": false,
+      "incluyeFrame": true,
+      "vip": false,
+      "price": 499,
+      "image": "assets/images/luxury-slim-demo/hero-bg.jpg"
     },
     {
       "slug": "luxury-vip",
@@ -72,7 +85,7 @@
       "incluyeFrame": true,
       "vip": true,
       "price": 799,
-      "image": "assets/images/historia-3.jpg"
+      "image": "assets/images/luxury-vip-demo/hero-bg.jpg"
     },
     {
       "slug": "bautizo",
@@ -85,7 +98,7 @@
       "incluyeFrame": true,
       "vip": false,
       "price": 499,
-      "image": "assets/images/bautizo-hero.jpg"
+      "image": "assets/images/bautizo-demo/bautizo-hero.jpg"
     },
     {
       "slug": "bautizo-nina",
@@ -98,7 +111,7 @@
       "incluyeFrame": false,
       "vip": false,
       "price": 499,
-      "image": "assets/images/bautizo-nina-hero.jpg"
+      "image": "assets/images/bautizo-nina-demo/bautizo-nina-hero.jpg"
     },
     {
       "slug": "elegance",
@@ -114,17 +127,56 @@
       "image": "/api/media/elegance-adancito-31320/puerta.webp"
     },
     {
-      "slug": "luxury-slim",
-      "name": "Luxury Slim",
-      "description": "Diseño elegante minimalista versión slim",
-      "previewFile": "luxury-slim-demo",
-      "active": true,
-      "color": "#C45306",
-      "incluyeVideo": false,
-      "incluyeFrame": true,
+      "slug": "elegance",
+      "name": "Frozen",
+      "description": "Diseño para niños invitacion frozen",
+      "previewFile": "frozen-demo",
+      "active": false,
+      "color": "#38bdf8",
+      "incluyeVideo": true,
+      "incluyeFrame": false,
       "vip": false,
-      "price": 499,
-      "image": "assets/images/hero-bg.jpg"
+      "price": 399,
+      "image": "assets/images/frozen-demo/hero.jpg"
+    },
+    {
+      "slug": "elegance",
+      "name": "CR7",
+      "description": "Diseño para niños invitacion cr7",
+      "previewFile": "cr7-demo",
+      "active": false,
+      "color": "#f59e0b",
+      "incluyeVideo": true,
+      "incluyeFrame": false,
+      "vip": false,
+      "price": 399,
+      "image": "assets/images/cr7-demo/hero.jpg"
+    },
+    {
+      "slug": "elegance",
+      "name": "Iron Man",
+      "description": "Diseño para niños invitacion iron man",
+      "previewFile": "ironman-demo",
+      "active": false,
+      "color": "#b91c1c",
+      "incluyeVideo": true,
+      "incluyeFrame": false,
+      "vip": false,
+      "price": 399,
+      "image": "assets/images/ironman-demo/hero.jpg"
+    },
+    {
+      "slug": "elegance",
+      "name": "Wolverine",
+      "description": "Diseño para niños invitacion wolverine",
+      "previewFile": "wolverine-demo",
+      "active": true,
+      "color": "yellow",
+      "incluyeVideo": true,
+      "incluyeFrame": false,
+      "vip": false,
+      "price": 399,
+      "image": "assets/images/wolverine-demo/puerta.webp"
     }
   ],
   "themes": [

@@ -1,0 +1,168 @@
+{
+    "meta": {
+        "slug": "elegance",
+        "lang": "es",
+        "theme": "Durazno",
+        "isPrototype": false,
+        "incluyeFrame": false,
+        "efecto": "calaveras",
+        "doorImage": "assets/images/wolverine-demo/puerta.webp",
+        "fondo-app": "assets/images/wolverine-demo/fondo-app.jpg"
+    },
+    "couple": {
+        "bride": "Adancito",
+        "groom": " ",
+        "monogram": " 10 años",
+        "label": "Mi Spider-fiesta",
+        "imageBg": "assets/images/wolverine-demo/contador.webp"
+    },
+    "date": {
+        "iso": "2027-05-15T15:00:00",
+        "display": "Sábado, 15 de mayo de 2027",
+        "short": "15 · 05 · 2027",
+        "day": "15",
+        "month": "mayo",
+        "year": "2027",
+        "active": true,
+        "image": "assets/images/wolverine-demo/hero.webp"
+    },
+    "frase": {
+        "text": "Aquel que ayuda a los demás... es sin duda un verdadero superhéroe.",
+        "author": "El valor de la bondad",
+        "active": true
+    },
+    "historiaSection": {
+        "active": true
+    },
+    "historia": [
+        {
+            "year": "2017",
+            "title": "El inicio",
+            "text": "Mis primeros pasos",
+            "image": "assets/images/wolverine-demo/galeria.webp"
+        },
+        {
+            "year": "2020",
+            "title": "Mis superpoderes",
+            "text": "Crecienso mis poderes",
+            "image": "assets/images/wolverine-demo/hero.webp"
+        },
+        {
+            "title": "",
+            "text": "",
+            "image": "assets/images/wolverine-demo/puerta.webp"
+        }
+    ],
+    "galeriaSection": {
+        "active": true
+    },
+    "galeria": [
+        {
+            "src": "assets/images/wolverine-demo/historia_2.webp",
+            "alt": "Momento 1",
+            "wide": true,
+            "active": true
+        },
+        {
+            "src": "assets/images/wolverine-demo/galeria5.webp",
+            "alt": "Momento 3",
+            "wide": false,
+            "active": true
+        },
+        {
+            "src": "assets/images/wolverine-demo/historia_3.webp",
+            "alt": "",
+            "wide": false,
+            "active": true
+        },
+        {
+            "src": "assets/images/wolverine-demo/dresscode.webp",
+            "alt": "",
+            "wide": true,
+            "active": true
+        }
+    ],
+    "ceremonia": {
+        "type": "Misa de Acción de Gracias",
+        "date": "12 de septiembre de 2026",
+        "time": "15:00 hrs",
+        "place": "Iglesia / Lugar de la ceremonia",
+        "address": "Dirección completa del lugar",
+        "mapUrl": "https://maps.google.com",
+        "active": false
+    },
+    "recepcion": {
+        "type": "Salón",
+        "time": "15:00 hrs",
+        "place": "Quinta /Spiderman",
+        "address": "Direccion por confirmar",
+        "mapUrl": "https://maps.google.com",
+        "active": true
+    },
+    "itinerarioSection": {
+        "active": true
+    },
+    "itinerario": [
+        {
+            "hora": "13:00",
+            "titulo": "Inicio",
+            "descripcion": "Entrada a la quinta"
+        },
+        {
+            "hora": "17:00",
+            "titulo": "Show",
+            "descripcion": "Inicio de el show"
+        },
+        {
+            "hora": "23:30",
+            "titulo": "Salida",
+            "descripcion": "Fin de el evento"
+        }
+    ],
+    "dressCode": {
+        "value": "Casual",
+        "note": " Elige tu mejor look y acompáñame a celebrar mis fiesta",
+        "image-background": "assets/images/wolverine-demo/dresscode.webp",
+        "active": true
+    },
+    "regalos": {
+        "title": "Un detalle para mí",
+        "intro": "Tu presencia es nuestro mejor regalo. Si deseas hacernos un obsequio, puedes hacerlo mediante transferencia bancaria.",
+        "buttonText": "Mesa de regalos",
+        "url": "#",
+        "active": true,
+        "transferencia": {
+            "titulo": "Regalar por Transferencia",
+            "banco": "BBVA México",
+            "nombre": "Adancito",
+            "clabe": "012180015555555555"
+        }
+    },
+    "rsvp": {
+        "question": "¿Me acompañas a celebrar?",
+        "buttonText": "Confirmar asistencia",
+        "whatsapp": "5210000000000",
+        "message": "Hola, confirmo mi asistencia a la fiesta de adancito",
+        "active": false
+    },
+    "music": {
+        "src": "assets/music/spiderman.mp3",
+        "autoplay": false,
+        "active": true
+    },
+    "footer": {
+        "thanks": "Gracias por acompañarme en este día tan especial",
+        "active": true
+    },
+    "theme": {
+        "fonts": {
+            "display": "\"Playfair Display\", \"Cormorant Garamond\", Georgia, serif",
+            "body": "\"Inter\", \"Helvetica Neue\", Arial, sans-serif",
+            "script": "\"Great Vibes\", \"Allura\", cursive"
+        }
+    },
+    "active": true,
+    "folio": "INV-260915-9753",
+    "updatesUsed": 1,
+    "updatesPaid": 1
+}
