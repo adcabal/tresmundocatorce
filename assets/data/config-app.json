@@ -8,8 +8,84 @@
     "maxUpdates": 3,
     "price": 50
   },
+  "categorias": [
+    {
+      "idCategoria": 1,
+      "tipo": "boda",
+      "etiqueta": "Boda",
+      "emoji": "💍",
+      "etiquetaSuperior": "Nuestra boda",
+      "lblNombre1": "Nombre 1 (novia)",
+      "phNombre1": "Ana",
+      "esPareja": true,
+      "lblNombre2": "Nombre 2 (novio)",
+      "phNombre2": "Carlos",
+      "ejemplo": {
+        "nombre1": "Ana",
+        "nombre2": "Carlos",
+        "etiqueta": "Nuestra boda",
+        "fechaISO": "2026-12-20T19:00"
+      }
+    },
+    {
+      "idCategoria": 2,
+      "tipo": "xv",
+      "etiqueta": "XV años",
+      "emoji": "🎀",
+      "etiquetaSuperior": "Mis XV años",
+      "lblNombre1": "Festejada",
+      "phNombre1": "Valentina",
+      "esPareja": false,
+      "lblNombre2": "",
+      "phNombre2": "",
+      "ejemplo": {
+        "nombre1": "Valentina",
+        "nombre2": "",
+        "etiqueta": "Mis XV años",
+        "fechaISO": "2026-09-12T19:00"
+      }
+    },
+    {
+      "idCategoria": 3,
+      "tipo": "bautizo",
+      "etiqueta": "Bautizo",
+      "emoji": "👼",
+      "etiquetaSuperior": "Mi bautizo",
+      "lblNombre1": "Festejado",
+      "phNombre1": "Luca",
+      "esPareja": false,
+      "lblNombre2": "",
+      "phNombre2": "",
+      "ejemplo": {
+        "nombre1": "Luca",
+        "nombre2": "",
+        "etiqueta": "Mi bautizo",
+        "fechaISO": "2026-11-15T12:00"
+      }
+    },
+    {
+      "idCategoria": 4,
+      "tipo": "fiesta",
+      "etiqueta": "Fiesta",
+      "emoji": "🎉",
+      "etiquetaSuperior": "Mi fiesta",
+      "lblNombre1": "Festejado(a)",
+      "phNombre1": "Sofía",
+      "esPareja": false,
+      "lblNombre2": "",
+      "phNombre2": "",
+      "ejemplo": {
+        "nombre1": "Sofía",
+        "nombre2": "",
+        "etiqueta": "Mi fiesta",
+        "fechaISO": "2026-12-05T20:00"
+      }
+    }
+  ],
   "designs": [
     {
+      "idDesign": 1,
+      "idCategoria": 1,
       "slug": "luxury",
       "name": "Luxury",
       "description": "Diseño elegante y sofisticado",
@@ -23,6 +99,8 @@
       "image": "assets/images/luxury-demo/hero-bg.jpg"
     },
     {
+      "idDesign": 2,
+      "idCategoria": 4,
       "slug": "fiestapatria",
       "name": "Fiesta Patria",
       "description": "Diseño inspirado en celebraciones patrias",
@@ -36,6 +114,8 @@
       "image": "assets/images/grito-independencia/grito-hero.jpg"
     },
     {
+      "idDesign": 3,
+      "idCategoria": 2,
       "slug": "elegance",
       "name": "Elegance",
       "description": "Diseño glass con historia en carrusel lateral",
@@ -49,6 +129,8 @@
       "image": "assets/images/elegance-demo/elegance-hero-bg.jpg"
     },
     {
+      "idDesign": 4,
+      "idCategoria": 1,
       "slug": "rock",
       "name": "Rock",
       "description": "Diseño elegante y sofisticado",
@@ -62,6 +144,8 @@
       "image": "assets/images/rock-demo/rock-hero.jpg"
     },
     {
+      "idDesign": 5,
+      "idCategoria": 1,
       "slug": "luxury-slim",
       "name": "Luxury Slim",
       "description": "Diseño elegante minimalista versión slim",
@@ -75,6 +159,8 @@
       "image": "assets/images/luxury-slim-demo/hero-bg.jpg"
     },
     {
+      "idDesign": 6,
+      "idCategoria": 1,
       "slug": "luxury-vip",
       "name": "VIP",
       "description": "Diseño elegante y sofisticado exigente",
@@ -88,6 +174,8 @@
       "image": "assets/images/luxury-vip-demo/hero-bg.jpg"
     },
     {
+      "idDesign": 7,
+      "idCategoria": 3,
       "slug": "bautizo",
       "name": "Bautizo Niño",
       "description": "Diseño celestial y tierno en tonos celestes y dorados",
@@ -101,6 +189,8 @@
       "image": "assets/images/bautizo-demo/bautizo-hero.jpg"
     },
     {
+      "idDesign": 8,
+      "idCategoria": 3,
       "slug": "bautizo-nina",
       "name": "Bautizo Niña",
       "description": "Diseño floral elegante con toques rosas, violeta y dorado",
@@ -114,6 +204,8 @@
       "image": "assets/images/bautizo-nina-demo/bautizo-nina-hero.jpg"
     },
     {
+      "idDesign": 9,
+      "idCategoria": 4,
       "slug": "elegance",
       "name": "Spiderman",
       "description": "Diseño para niños invitacion spiderman",
@@ -127,6 +219,8 @@
       "image": "assets/images/spiderman-demo/puerta.webp"
     },
     {
+      "idDesign": 10,
+      "idCategoria": 4,
       "slug": "elegance",
       "name": "Frozen",
       "description": "Diseño para niños invitacion frozen",
@@ -140,6 +234,8 @@
       "image": "assets/images/frozen-demo/hero.jpg"
     },
     {
+      "idDesign": 11,
+      "idCategoria": 4,
       "slug": "elegance",
       "name": "CR7",
       "description": "Diseño para niños invitacion cr7",
@@ -153,6 +249,8 @@
       "image": "assets/images/cr7-demo/hero.jpg"
     },
     {
+      "idDesign": 12,
+      "idCategoria": 4,
       "slug": "elegance",
       "name": "Iron Man",
       "description": "Diseño para niños invitacion iron man",
@@ -166,6 +264,8 @@
       "image": "assets/images/ironman-demo/hero.jpg"
     },
     {
+      "idDesign": 13,
+      "idCategoria": 4,
       "slug": "elegance",
       "name": "Wolverine",
       "description": "Diseño para niños invitacion wolverine",
@@ -177,6 +277,66 @@
       "vip": false,
       "price": 399,
       "image": "assets/images/wolverine-demo/puerta.webp"
+    },
+    {
+      "idDesign": 14,
+      "idCategoria": 2,
+      "slug": "elegance",
+      "name": "Merida",
+      "description": "Diseño glass con historia en carrusel lateral",
+      "previewFile": "elegance-merida-42618",
+      "active": true,
+      "color": "#c4a484",
+      "incluyeVideo": false,
+      "incluyeFrame": true,
+      "vip": false,
+      "price": 549,
+      "image": "https://invictame-api-h2f5d8b0ahghezhe.centralus-01.azurewebsites.net/api/media/elegance-merida-42618/portada11.webp"
+    },
+    {
+      "idDesign": 15,
+      "idCategoria": 2,
+      "slug": "elegance",
+      "name": "Bella",
+      "description": "Diseño glass con historia en carrusel lateral",
+      "previewFile": "elegance-bella-23890",
+      "active": true,
+      "color": "#c4a484",
+      "incluyeVideo": false,
+      "incluyeFrame": true,
+      "vip": false,
+      "price": 549,
+      "image": "https://invictame-api-h2f5d8b0ahghezhe.centralus-01.azurewebsites.net/api/media/elegance-bella-23890/galeria3.webp"
+    },
+    {
+      "idDesign": 16,
+      "idCategoria": 2,
+      "slug": "elegance",
+      "name": "Mariana",
+      "description": "Diseño glass con historia en carrusel lateral",
+      "previewFile": "elegance-mariana-90979",
+      "active": true,
+      "color": "#c4a484",
+      "incluyeVideo": false,
+      "incluyeFrame": true,
+      "vip": false,
+      "price": 549,
+      "image": "https://invictame-api-h2f5d8b0ahghezhe.centralus-01.azurewebsites.net/api/media/elegance-mariana-90979/_h4a9909.webp"
+    },
+    {
+      "idDesign": 17,
+      "idCategoria": 1,
+      "slug": "luxury-plata",
+      "name": "PLATA",
+      "description": "Diseño elegante y sofisticado exigente",
+      "previewFile": "luxury-plata-demo",
+      "active": true,
+      "color": "#930e1d",
+      "incluyeVideo": true,
+      "incluyeFrame": true,
+      "vip": true,
+      "price": 799,
+      "image": "assets/images/luxury-vip-demo/hero-bg.jpg"
     }
   ],
   "themes": [

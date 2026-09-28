@@ -25,9 +25,108 @@
     "year": "2026",
     "image": "assets/images/elegance-demo/elegance-galeria-2.jpg"
   },
+  "quinceRosas": {
+    "active": true,
+    "icon": "🌹",
+    "title": "Baile de quince rosas",
+    "intro": "Personas que me acompañan en este vals",
+    "items": [
+      {
+        "image": "assets/images/quince-rosas/foto1.jpg",
+        "name": "Roberto Hernández",
+        "role": "Papá",
+        "active": true
+      },
+      {
+        "image": "assets/images/quince-rosas/foto2.jpg",
+        "name": "Carlos Ramírez",
+        "role": "Abuelo",
+        "active": true
+      },
+      {
+        "image": "assets/images/quince-rosas/foto3.jpg",
+        "name": "Miguel González",
+        "role": "Tío",
+        "active": true
+      },
+      {
+        "image": "assets/images/quince-rosas/foto4.jpg",
+        "name": "Fernando Martínez",
+        "role": "Padrino",
+        "active": true
+      },
+      {
+        "image": "assets/images/quince-rosas/foto5.jpg",
+        "name": "Jorge Castillo",
+        "role": "Tío",
+        "active": true
+      },
+      {
+        "image": "assets/images/quince-rosas/foto6.jpg",
+        "name": "Alejandro Torres",
+        "role": "Primo",
+        "active": true
+      },
+      {
+        "image": "assets/images/quince-rosas/foto7.jpg",
+        "name": "Daniel Mendoza",
+        "role": "Hermano",
+        "active": true
+      },
+      {
+        "image": "assets/images/quince-rosas/foto8.jpg",
+        "name": "Ricardo Navarro",
+        "role": "Primo",
+        "active": true
+      },
+      {
+        "image": "assets/images/quince-rosas/foto9.jpg",
+        "name": "Sergio Ramírez",
+        "role": "Tío",
+        "active": true
+      },
+      {
+        "image": "assets/images/quince-rosas/foto10.jpg",
+        "name": "Luis Herrera",
+        "role": "Padrino",
+        "active": true
+      },
+      {
+        "image": "assets/images/quince-rosas/foto11.jpg",
+        "name": "Eduardo Vargas",
+        "role": "Primo",
+        "active": true
+      },
+      {
+        "image": "assets/images/quince-rosas/foto12.jpg",
+        "name": "Andrés Morales",
+        "role": "Hermano",
+        "active": true
+      },
+      {
+        "image": "assets/images/quince-rosas/foto13.jpg",
+        "name": "José Martínez",
+        "role": "Tío",
+        "active": true
+      },
+      {
+        "image": "assets/images/quince-rosas/foto14.jpg",
+        "name": "Manuel Sánchez",
+        "role": "Abuelo",
+        "active": true
+      },
+      {
+        "image": "assets/images/quince-rosas/foto15.jpg",
+        "name": "Gabriel Flores",
+        "role": "Primo",
+        "active": true
+      }
+    ]
+  },
   "frase": {
     "text": "Hay momentos en la vida que se convierten en recuerdos para siempre. Hoy quiero compartir uno de los más especiales contigo.",
     "author": "",
+    "frameActive": true,
     "active": true
   },
   "historia": {

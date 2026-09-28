@@ -59,25 +59,25 @@
     "items": [
       {
         "src": "assets/images/luxury-vip-demo/galeria-1.jpg",
-        "alt": "Marina & Joel 1",
+        "alt": "Adan & Perla 1",
         "wide": true,
         "active": true
       },
       {
         "src": "assets/images/luxury-vip-demo/galeria-2.jpg",
-        "alt": "Marina & Joel 2",
+        "alt": "Adan & Perla 2",
         "wide": false,
         "active": true
       },
       {
         "src": "assets/images/luxury-vip-demo/galeria-3.jpg",
-        "alt": "Marina & Joel 3",
+        "alt": "Adan & Perla 3",
         "wide": false,
         "active": true
       },
       {
         "src": "assets/images/luxury-vip-demo/galeria-4.jpg",
-        "alt": "Marina & Joel 4",
+        "alt": "Adan & Perla 4",
         "wide": true,
         "active": true
       }
@@ -158,7 +158,7 @@
     "question": "¿Nos acompañas?",
     "buttonText": "Confirmar asistencia",
     "whatsapp": "5210000000000",
-    "message": "Hola, confirmo mi asistencia a la boda de Marina & Joel",
+    "message": "Hola, confirmo mi asistencia a la boda de Adan & Perla",
     "active": true
   },
   "IncluirConfirmacion": false,
