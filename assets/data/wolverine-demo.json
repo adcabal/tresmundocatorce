@@ -10,10 +10,11 @@
         "fondo-app": "assets/images/wolverine-demo/fondo-app.jpg"
     },
     "couple": {
+        "icon": "wolverine",
         "bride": "Adancito",
         "groom": " ",
         "monogram": " 10 años",
-        "label": "Mi Spider-fiesta",
+        "label": "Mi Wolverine-fiesta",
         "imageBg": "assets/images/wolverine-demo/contador.webp"
     },
     "date": {

@@ -250,6 +250,7 @@
     "buttonText": "Mesa de regalos",
     "url": "#",
     "transferencia": {
+      "active": true,
       "titulo": "Regalar por Transferencia",
       "banco": "BBVA México",
       "nombre": "Karla & Christian",
@@ -261,7 +262,8 @@
     "question": "¿Me acompañas a celebrar?",
     "buttonText": "Confirmar asistencia",
     "whatsapp": "5210000000000",
-    "message": "Hola, confirmo mi asistencia a los XV años de Briseida Berenice"
+    "message": "Hola, confirmo mi asistencia a los XV años de Briseida Berenice",
+    "msjFechaLimite": "Confirma antes del Antes del 10 de septiembre de 2026"
   },
   "IncluirConfirmacion": false,
   "IncluirListaInvitados": false,

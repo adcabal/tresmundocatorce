@@ -163,7 +163,8 @@
     "buttonText": "Confirmar asistencia",
     "whatsapp": "5210000000000",
     "message": "Hola, confirmo mi asistencia a la boda de Adan & Perla",
-    "active": true
+    "active": true,
+    "msjFechaLimite": "Confirma antes del Antes del 28 de noviembre de 2026"
   },
   "IncluirConfirmacion": false,
   "IncluirListaInvitados": false,
