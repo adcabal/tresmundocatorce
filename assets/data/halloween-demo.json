@@ -1,0 +1,230 @@
+{
+  "meta": {
+    "slug": "halloween",
+    "lang": "es",
+    "theme": "halloween",
+    "isPrototype": true,
+    "efecto": "fantasmas",
+    "doorImage": "assets/images/hallowen/puesta01.jpg",
+    "fondo-app": "assets/images/hallowen/galeria9.jpg",
+    "incluyeFrame": true
+  },
+  "couple": {
+    "icon": "calabaza",
+    "bride": "  halloween 2026",
+    "groom": "",
+    "monogram": "",
+    "label": "",
+    "imageBg": "assets/images/hallowen/portada5.jpg"
+  },
+  "date": {
+    "active": true,
+    "iso": "2026-10-31T20:00:00",
+    "display": "Sábado, 31 de octubre de 2026",
+    "short": "31 · 10 · 2026",
+    "day": "31",
+    "month": "octubre",
+    "year": "2026",
+    "image": "assets/images/hallowen/galeria1.jpg"
+  },
+  "quinceRosas": {
+    "active": true,
+    "icon": "👻",
+    "title": "Mejores disfraces",
+    "intro": "Ven con tu mejor look",
+    "items": [
+      {
+        "image": "assets/images/hallowen/disfraz1.jpg",
+        "name": "Roberto Hernández",
+        "role": "",
+        "active": true
+      },
+      {
+        "image": "assets/images/hallowen/disfraz2.jpg",
+        "name": "Carlos Ramírez",
+        "role": "",
+        "active": true
+      },
+      {
+        "image": "assets/images/hallowen/disfraz3.jpg",
+        "name": "Miguel  & Lisa",
+        "role": "",
+        "active": true
+      },
+      {
+        "image": "assets/images/hallowen/disfraz4.jpg",
+        "name": "Fernando Martínez",
+        "role": "",
+        "active": true
+      },
+      {
+        "image": "assets/images/hallowen/disfraz5.jpg",
+        "name": "Lyan",
+        "role": "",
+        "active": true
+      },
+      {
+        "image": "assets/images/hallowen/disfraz6.jpg",
+        "name": "Eve",
+        "role": "",
+        "active": true
+      },
+      {
+        "image": "assets/images/hallowen/disfraz7.jpg",
+        "name": "Luna",
+        "role": "",
+        "active": true
+      },
+      {
+        "image": "assets/images/hallowen/disfraz8.jpg",
+        "name": "Kiki",
+        "role": "",
+        "active": true
+      },
+      {
+        "image": "assets/images/hallowen/disfraz9.jpg",
+        "name": "",
+        "role": "",
+        "active": true
+      },
+      {
+        "image": "assets/images/hallowen/disfraz10.jpg",
+        "name": "Fer",
+        "role": "",
+        "active": true
+      },
+      {
+        "image": "assets/images/hallowen/disfraz11.jpg",
+        "name": "Claudia",
+        "role": "",
+        "active": true
+      },
+      {
+        "image": "assets/images/hallowen/disfraz11.jpg",
+        "name": "Brisi",
+        "role": "",
+        "active": true
+      },
+      {
+        "image": "assets/images/hallowen/disfraz12.jpg",
+        "name": "Jose & Maria",
+        "role": "",
+        "active": true
+      }
+    ]
+  },
+  "frase": {
+    "text": "¡Espero que todos los monstruos que veas esta noche sean tan amigables como tú!",
+    "author": "",
+    "frameActive": true,
+    "active": true
+  },
+  "historia": {
+    "active": false,
+    "items": []
+  },
+  "galeria": {
+    "active": true,
+    "items": [
+      {
+        "src": "assets/images/hallowen/galeria1.jpg",
+        "alt": "Momento 1",
+        "wide": true,
+        "active": true
+      },
+      {
+        "src": "assets/images/hallowen/galeria2.jpg",
+        "alt": "Momento 2",
+        "wide": false,
+        "active": true
+      },
+      {
+        "src": "assets/images/hallowen/galeria3.jpg",
+        "alt": "Momento 3",
+        "wide": false,
+        "active": true
+      },
+      {
+        "src": "assets/images/hallowen/galeria9.jpg",
+        "alt": "Momento 4",
+        "wide": false,
+        "active": true
+      },
+      {
+        "src": "assets/images/hallowen/disfraz13.jpg",
+        "alt": "Momento 5",
+        "wide": false,
+        "active": true
+      },
+      {
+        "src": "assets/images/hallowen/galeria6.jpg",
+        "alt": "Momento 6",
+        "wide": false,
+        "active": true
+      }
+    ]
+  },
+  "ceremonia": {
+    "active": false,
+    "type": "Misa de Acción de Gracias",
+    "date": "12 de septiembre de 2026",
+    "time": "18:00 hrs",
+    "place": "Iglesia / Lugar de la ceremonia",
+    "address": "Dirección completa del lugar",
+    "mapUrl": "https://maps.google.com"
+  },
+  "recepcion": {
+    "active": true,
+    "type": "Ubicación",
+    "time": "20:00 hrs",
+    "place": "Casa de los abuelos",
+    "address": "Dirección completa del lugar",
+    "mapUrl": "https://maps.google.com"
+  },
+  "itinerario": {
+    "active": false,
+    "items": [
+      {
+        "hora": "21:00",
+        "titulo": "Fiesta",
+        "descripcion": "Inicio de la fiesta",
+        "active": true
+      }
+    ]
+  },
+  "dressCode": {
+    "active": true,
+    "value": "Formal",
+    "note": "Quiero compartir esta noche tan especial contigo. Elige tu mejor look y acompáñame a celebrar mis XV años.",
+    "image-background": "assets/images/hallowen/dresscode.jpg"
+  },
+  "regalos": {
+    "active": false
+  },
+  "rsvp": {
+    "active": true,
+    "question": "¿Me acompañas a celebrar?",
+    "buttonText": "Confirmar asistencia",
+    "whatsapp": "5210000000000",
+    "message": "Hola, confirmo mi asistencia a la fiesta de hallowen",
+    "msjFechaLimite": "Confirma antes del 28 de octubre de 2026"
+  },
+  "IncluirConfirmacion": false,
+  "IncluirListaInvitados": false,
+  "music": {
+    "active": true,
+    "src": "assets/music/Jack.mp3",
+    "autoplay": false
+  },
+  "footer": {
+    "active": true,
+    "thanks": "Gracias por acompañarnos en esta noche tan terrorifica"
+  },
+  "theme": {
+    "fonts": {
+      "display": "\"Playfair Display\", \"Cormorant Garamond\", Georgia, serif",
+      "body": "\"Inter\", \"Helvetica Neue\", Arial, sans-serif",
+      "script": "\"Great Vibes\", \"Allura\", cursive"
+    }
+  }
+}
