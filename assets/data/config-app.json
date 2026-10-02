@@ -80,6 +80,24 @@
         "etiqueta": "Mi fiesta",
         "fechaISO": "2026-12-05T20:00"
       }
+    },
+    {
+      "idCategoria": 5,
+      "tipo": "fiesta",
+      "etiqueta": "Fiesta Hallowen",
+      "emoji": "🎃",
+      "etiquetaSuperior": "Mi fiesta",
+      "lblNombre1": "Festejado(a)",
+      "phNombre1": "",
+      "esPareja": false,
+      "lblNombre2": "",
+      "phNombre2": "",
+      "ejemplo": {
+        "nombre1": "",
+        "nombre2": "",
+        "etiqueta": "Mi fiesta",
+        "fechaISO": "2026-10-31T20:00"
+      }
     }
   ],
   "designs": [
@@ -340,7 +358,7 @@
     },
     {
       "idDesign": 18,
-      "idCategoria": 4,
+      "idCategoria": 5,
       "slug": "halloween",
       "name": "Halloween",
       "description": "Diseño temático de Halloween con efectos animados",
@@ -350,12 +368,12 @@
       "incluyeVideo": false,
       "incluyeFrame": true,
       "vip": false,
-      "price": 499,
-      "image": "assets/images/elegance-demo/elegance-hero-bg.jpg"
+      "price": 300,
+      "image": "assets/images/hallowen/puesta01.jpg"
     },
     {
       "idDesign": 19,
-      "idCategoria": 4,
+      "idCategoria": 5,
       "slug": "hallowen",
       "name": "Halloween",
       "description": "Diseño temático de Halloween con efectos animados",
