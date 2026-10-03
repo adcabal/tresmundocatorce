@@ -1,13 +1,12 @@
 {
   "meta": {
-    "slug": "halloween",
+    "slug": "hallowen-plata",
     "lang": "es",
     "theme": "halloween",
     "isPrototype": true,
     "efecto": "fantasmas",
-    "doorImage": "assets/images/hallowen/puesta01.jpg",
-    "fondo-app": "assets/images/hallowen/galeria9.jpg",
-    "video": "assets/video/hallowen.mp4",
+    "doorImage": "assets/images/hallowen-plata/door.jpg",
+    "fondo-app": "assets/images/hallowen-plata/fondo-app.jpg",
     "incluyeFrame": true
   },
   "couple": {
@@ -16,7 +15,7 @@
     "groom": "",
     "monogram": "",
     "label": "",
-    "imageBg": "assets/images/hallowen/portada5.jpg"
+    "imageBg": "assets/images/hallowen-plata/principal.jpg"
   },
   "date": {
     "active": true,
@@ -26,7 +25,7 @@
     "day": "31",
     "month": "octubre",
     "year": "2026",
-    "image": "assets/images/hallowen/galeria1.jpg"
+    "image": "assets/images/hallowen-plata/contador.jpg"
   },
   "quinceRosas": {
     "active": true,
@@ -35,80 +34,44 @@
     "intro": "Ven con tu mejor look",
     "items": [
       {
-        "image": "assets/images/hallowen/disfraz1.jpg",
-        "name": "Roberto Hernández",
+        "image": "assets/images/hallowen-plata/personaje01.jpg",
+        "name": "Michael Myers",
         "role": "",
         "active": true
       },
       {
-        "image": "assets/images/hallowen/disfraz2.jpg",
-        "name": "Carlos Ramírez",
+        "image": "assets/images/hallowen-plata/personaje02.jpg",
+        "name": "Art",
         "role": "",
         "active": true
       },
       {
-        "image": "assets/images/hallowen/disfraz3.jpg",
-        "name": "Miguel  & Lisa",
+        "image": "assets/images/hallowen-plata/personaje03.jpg",
+        "name": "Bily",
         "role": "",
         "active": true
       },
       {
-        "image": "assets/images/hallowen/disfraz4.jpg",
-        "name": "Fernando Martínez",
+        "image": "assets/images/hallowen-plata/personaje04.jpg",
+        "name": "Jason",
         "role": "",
         "active": true
       },
       {
-        "image": "assets/images/hallowen/disfraz5.jpg",
-        "name": "Lyan",
+        "image": "assets/images/hallowen-plata/personaje05.jpg",
+        "name": "Hell Rise",
         "role": "",
         "active": true
       },
       {
-        "image": "assets/images/hallowen/disfraz6.jpg",
-        "name": "Eve",
+        "image": "assets/images/hallowen-plata/personaje06.jpg",
+        "name": "Freddy Krueger",
         "role": "",
         "active": true
       },
       {
-        "image": "assets/images/hallowen/disfraz7.jpg",
-        "name": "Luna",
-        "role": "",
-        "active": true
-      },
-      {
-        "image": "assets/images/hallowen/disfraz8.jpg",
-        "name": "Kiki",
-        "role": "",
-        "active": true
-      },
-      {
-        "image": "assets/images/hallowen/disfraz9.jpg",
-        "name": "",
-        "role": "",
-        "active": true
-      },
-      {
-        "image": "assets/images/hallowen/disfraz10.jpg",
-        "name": "Fer",
-        "role": "",
-        "active": true
-      },
-      {
-        "image": "assets/images/hallowen/disfraz11.jpg",
-        "name": "Claudia",
-        "role": "",
-        "active": true
-      },
-      {
-        "image": "assets/images/hallowen/disfraz11.jpg",
-        "name": "Brisi",
-        "role": "",
-        "active": true
-      },
-      {
-        "image": "assets/images/hallowen/disfraz12.jpg",
-        "name": "Jose & Maria",
+        "image": "assets/images/hallowen-plata/personaje07.jpg",
+        "name": "Chucky",
         "role": "",
         "active": true
       }
@@ -125,7 +88,7 @@
     "items": []
   },
   "galeria": {
-    "active": true,
+    "active": false,
     "items": [
       {
         "src": "assets/images/hallowen/galeria1.jpg",
@@ -197,7 +160,7 @@
     "active": true,
     "value": "Formal",
     "note": "Quiero compartir esta noche tan especial contigo. Elige tu mejor look y acompáñame a celebrar mis XV años.",
-    "image-background": "assets/images/hallowen/dresscode.jpg"
+    "image-background": "assets/images/hallowen-plata/dresscode.jpg"
   },
   "regalos": {
     "active": false
@@ -214,7 +177,7 @@
   "IncluirListaInvitados": false,
   "music": {
     "active": true,
-    "src": "assets/music/Jack.mp3",
+    "src": "assets/music/hallowen.mp3",
     "autoplay": false
   },
   "footer": {

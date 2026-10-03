@@ -372,6 +372,21 @@
       "image": "assets/images/hallowen/puesta01.jpg"
     },
     {
+      "idDesign": 20,
+      "idCategoria": 5,
+      "slug": "hallowen-plata",
+      "name": "Halloween Plata",
+      "description": "Variante plateada del diseño temático de Halloween",
+      "previewFile": "hallowen-plata-demo",
+      "active": true,
+      "color": "#c0c0c0",
+      "incluyeVideo": false,
+      "incluyeFrame": true,
+      "vip": false,
+      "price": 300,
+      "image": "assets/images/hallowen-plata/door.jpg"
+    },
+    {
       "idDesign": 19,
       "idCategoria": 5,
       "slug": "hallowen",
