@@ -272,6 +272,10 @@
     "src": "assets/music/song.mp3",
     "autoplay": false
   },
+  "scrollStory": {
+    "active": true,
+    "type": "rapunzel"
+  },
   "footer": {
     "active": true,
     "thanks": "Gracias por acompañarme en este día tan especial"
